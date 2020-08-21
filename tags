@@ -1,0 +1,740 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+%	src/conman.nim	/^proc `%`(x, y: cint): cint =$/;"	o
+%	src/conman.nim	/^proc `%`(x, y: cint): cint$/;"	o
+%	src/conmanbar.nim	/^proc `%`(x, y: cint): cint =$/;"	o
+%	src/conmanbar.nim	/^proc `%`(x, y: cint): cint$/;"	o
+&+	src/conman.nim	/^proc `&+`(a: string, b: string): string =$/;"	o
+&+	src/conmanbar.nim	/^proc `&+`(a: string, b: string): string =$/;"	o
+Arg	src/conman.nim	/^  Arg = object$/;"	c
+Arg	src/conmanbar.nim	/^  Arg = object$/;"	c
+ButtonPressType	src/conman.nim	/^  ButtonPressType = enum$/;"	e
+ButtonPressType	src/conmanbar.nim	/^  ButtonPressType = enum$/;"	e
+Client	src/conman.nim	/^  Client = object$/;"	c
+Client	src/conmanbar.nim	/^  Client = object$/;"	c
+Container	src/conman.nim	/^  Container = object$/;"	c
+Container	src/conmanbar.nim	/^  Container = object$/;"	c
+Cur	src/draw.nim	/^  Cur* = object$/;"	c
+Development	README.md	/^## Development$/;"	s
+Drw	src/draw.nim	/^  Drw* = object$/;"	c
+FcAtomicCreate	src/fontconfig.nim	/^proc FcAtomicCreate*(file: ptr TFcChar8): ptr TFcAtomic {.cdecl,$/;"	p
+FcAtomicDeleteNew	src/fontconfig.nim	/^proc FcAtomicDeleteNew*(theAtomic: ptr TFcAtomic) {.cdecl,$/;"	p
+FcAtomicDestroy	src/fontconfig.nim	/^proc FcAtomicDestroy*(theAtomic: ptr TFcAtomic) {.cdecl,$/;"	p
+FcAtomicLock	src/fontconfig.nim	/^proc FcAtomicLock*(theAtomic: ptr TFcAtomic): TFcBool {.cdecl,$/;"	p
+FcAtomicNewFile	src/fontconfig.nim	/^proc FcAtomicNewFile*(theAtomic: ptr TFcAtomic): ptr TFcChar8 {.cdecl,$/;"	p
+FcAtomicOrigFile	src/fontconfig.nim	/^proc FcAtomicOrigFile*(theAtomic: ptr TFcAtomic): ptr TFcChar8 {.cdecl,$/;"	p
+FcAtomicReplaceOrig	src/fontconfig.nim	/^proc FcAtomicReplaceOrig*(theAtomic: ptr TFcAtomic): TFcBool {.cdecl,$/;"	p
+FcAtomicUnlock	src/fontconfig.nim	/^proc FcAtomicUnlock*(theAtomic: ptr TFcAtomic) {.cdecl,$/;"	p
+FcBlanksAdd	src/fontconfig.nim	/^proc FcBlanksAdd*(b: ptr TFcBlanks; ucs4: TFcChar32): TFcBool {.cdecl,$/;"	p
+FcBlanksCreate	src/fontconfig.nim	/^proc FcBlanksCreate*(): ptr TFcBlanks {.cdecl, importc: "FcBlanksCreate",$/;"	p
+FcBlanksDestroy	src/fontconfig.nim	/^proc FcBlanksDestroy*(b: ptr TFcBlanks) {.cdecl, importc: "FcBlanksDestroy",$/;"	p
+FcBlanksIsMember	src/fontconfig.nim	/^proc FcBlanksIsMember*(b: ptr TFcBlanks; ucs4: TFcChar32): TFcBool {.cdecl,$/;"	p
+FcCacheCopySet	src/fontconfig.nim	/^proc FcCacheCopySet*(c: ptr TFcCache): ptr TFcFontSet {.cdecl,$/;"	p
+FcCacheCreateTagFile	src/fontconfig.nim	/^proc FcCacheCreateTagFile*(config: ptr TFcConfig) {.cdecl,$/;"	p
+FcCacheDir	src/fontconfig.nim	/^proc FcCacheDir*(c: ptr TFcCache): ptr TFcChar8 {.cdecl, importc: "FcCacheDir",$/;"	p
+FcCacheNumFont	src/fontconfig.nim	/^proc FcCacheNumFont*(c: ptr TFcCache): cint {.cdecl, importc: "FcCacheNumFont",$/;"	p
+FcCacheNumSubdir	src/fontconfig.nim	/^proc FcCacheNumSubdir*(c: ptr TFcCache): cint {.cdecl,$/;"	p
+FcCacheSubdir	src/fontconfig.nim	/^proc FcCacheSubdir*(c: ptr TFcCache; i: cint): ptr TFcChar8 {.cdecl,$/;"	p
+FcCharSetAddChar	src/fontconfig.nim	/^proc FcCharSetAddChar*(fcs: ptr TFcCharSet; ucs4: TFcChar32): TFcBool {.cdecl,$/;"	p
+FcCharSetCopy	src/fontconfig.nim	/^proc FcCharSetCopy*(src: ptr TFcCharSet): ptr TFcCharSet {.cdecl,$/;"	p
+FcCharSetCount	src/fontconfig.nim	/^proc FcCharSetCount*(a: ptr TFcCharSet): TFcChar32 {.cdecl,$/;"	p
+FcCharSetCoverage	src/fontconfig.nim	/^proc FcCharSetCoverage*(a: ptr TFcCharSet; page: TFcChar32;$/;"	p
+FcCharSetCreate	src/fontconfig.nim	/^proc FcCharSetCreate*(): ptr TFcCharSet {.cdecl, importc: "FcCharSetCreate",$/;"	p
+FcCharSetDelChar	src/fontconfig.nim	/^proc FcCharSetDelChar*(fcs: ptr TFcCharSet; ucs4: TFcChar32): TFcBool {.cdecl,$/;"	p
+FcCharSetDestroy	src/fontconfig.nim	/^proc FcCharSetDestroy*(fcs: ptr TFcCharSet) {.cdecl,$/;"	p
+FcCharSetEqual	src/fontconfig.nim	/^proc FcCharSetEqual*(a: ptr TFcCharSet; b: ptr TFcCharSet): TFcBool {.cdecl,$/;"	p
+FcCharSetFirstPage	src/fontconfig.nim	/^proc FcCharSetFirstPage*(a: ptr TFcCharSet;$/;"	p
+FcCharSetHasChar	src/fontconfig.nim	/^proc FcCharSetHasChar*(fcs: ptr TFcCharSet; ucs4: TFcChar32): TFcBool {.cdecl,$/;"	p
+FcCharSetIntersect	src/fontconfig.nim	/^proc FcCharSetIntersect*(a: ptr TFcCharSet; b: ptr TFcCharSet): ptr TFcCharSet {.$/;"	p
+FcCharSetIntersectCount	src/fontconfig.nim	/^proc FcCharSetIntersectCount*(a: ptr TFcCharSet; b: ptr TFcCharSet): TFcChar32 {.$/;"	p
+FcCharSetIsSubset	src/fontconfig.nim	/^proc FcCharSetIsSubset*(a: ptr TFcCharSet; b: ptr TFcCharSet): TFcBool {.cdecl,$/;"	p
+FcCharSetMerge	src/fontconfig.nim	/^proc FcCharSetMerge*(a: ptr TFcCharSet; b: ptr TFcCharSet; changed: ptr TFcBool): TFcBool {.$/;"	p
+FcCharSetNew	src/fontconfig.nim	/^proc FcCharSetNew*(): ptr TFcCharSet {.cdecl, importc: "FcCharSetNew",$/;"	p
+FcCharSetNextPage	src/fontconfig.nim	/^proc FcCharSetNextPage*(a: ptr TFcCharSet;$/;"	p
+FcCharSetSubtract	src/fontconfig.nim	/^proc FcCharSetSubtract*(a: ptr TFcCharSet; b: ptr TFcCharSet): ptr TFcCharSet {.$/;"	p
+FcCharSetSubtractCount	src/fontconfig.nim	/^proc FcCharSetSubtractCount*(a: ptr TFcCharSet; b: ptr TFcCharSet): TFcChar32 {.$/;"	p
+FcCharSetUnion	src/fontconfig.nim	/^proc FcCharSetUnion*(a: ptr TFcCharSet; b: ptr TFcCharSet): ptr TFcCharSet {.$/;"	p
+FcConfigAppFontAddDir	src/fontconfig.nim	/^proc FcConfigAppFontAddDir*(config: ptr TFcConfig; dir: ptr TFcChar8): TFcBool {.$/;"	p
+FcConfigAppFontAddFile	src/fontconfig.nim	/^proc FcConfigAppFontAddFile*(config: ptr TFcConfig; file: ptr TFcChar8): TFcBool {.$/;"	p
+FcConfigAppFontClear	src/fontconfig.nim	/^proc FcConfigAppFontClear*(config: ptr TFcConfig) {.cdecl,$/;"	p
+FcConfigBuildFonts	src/fontconfig.nim	/^proc FcConfigBuildFonts*(config: ptr TFcConfig): TFcBool {.cdecl,$/;"	p
+FcConfigCreate	src/fontconfig.nim	/^proc FcConfigCreate*(): ptr TFcConfig {.cdecl, importc: "FcConfigCreate",$/;"	p
+FcConfigDestroy	src/fontconfig.nim	/^proc FcConfigDestroy*(config: ptr TFcConfig) {.cdecl,$/;"	p
+FcConfigEnableHome	src/fontconfig.nim	/^proc FcConfigEnableHome*(enable: TFcBool): TFcBool {.cdecl,$/;"	p
+FcConfigFilename	src/fontconfig.nim	/^proc FcConfigFilename*(url: ptr TFcChar8): ptr TFcChar8 {.cdecl,$/;"	p
+FcConfigGetBlanks	src/fontconfig.nim	/^proc FcConfigGetBlanks*(config: ptr TFcConfig): ptr TFcBlanks {.cdecl,$/;"	p
+FcConfigGetCache	src/fontconfig.nim	/^proc FcConfigGetCache*(config: ptr TFcConfig): ptr TFcChar8 {.cdecl,$/;"	p
+FcConfigGetCacheDirs	src/fontconfig.nim	/^proc FcConfigGetCacheDirs*(config: ptr TFcConfig): ptr TFcStrList {.cdecl,$/;"	p
+FcConfigGetConfigDirs	src/fontconfig.nim	/^proc FcConfigGetConfigDirs*(config: ptr TFcConfig): ptr TFcStrList {.cdecl,$/;"	p
+FcConfigGetConfigFiles	src/fontconfig.nim	/^proc FcConfigGetConfigFiles*(config: ptr TFcConfig): ptr TFcStrList {.cdecl,$/;"	p
+FcConfigGetCurrent	src/fontconfig.nim	/^proc FcConfigGetCurrent*(): ptr TFcConfig {.cdecl,$/;"	p
+FcConfigGetFontDirs	src/fontconfig.nim	/^proc FcConfigGetFontDirs*(config: ptr TFcConfig): ptr TFcStrList {.cdecl,$/;"	p
+FcConfigGetFonts	src/fontconfig.nim	/^proc FcConfigGetFonts*(config: ptr TFcConfig; set: TFcSetName): ptr TFcFontSet {.$/;"	p
+FcConfigGetRescanInterval	src/fontconfig.nim	/^proc FcConfigGetRescanInterval*(config: ptr TFcConfig): cint {.cdecl,$/;"	p
+FcConfigGetSysRoot	src/fontconfig.nim	/^proc FcConfigGetSysRoot*(config: ptr TFcConfig): ptr TFcChar8 {.cdecl,$/;"	p
+FcConfigHome	src/fontconfig.nim	/^proc FcConfigHome*(): ptr TFcChar8 {.cdecl, importc: "FcConfigHome",$/;"	p
+FcConfigParseAndLoad	src/fontconfig.nim	/^proc FcConfigParseAndLoad*(config: ptr TFcConfig; file: ptr TFcChar8;$/;"	p
+FcConfigReference	src/fontconfig.nim	/^proc FcConfigReference*(config: ptr TFcConfig): ptr TFcConfig {.cdecl,$/;"	p
+FcConfigSetCurrent	src/fontconfig.nim	/^proc FcConfigSetCurrent*(config: ptr TFcConfig): TFcBool {.cdecl,$/;"	p
+FcConfigSetRescanInterval	src/fontconfig.nim	/^proc FcConfigSetRescanInterval*(config: ptr TFcConfig; rescanInterval: cint): TFcBool {.$/;"	p
+FcConfigSetSysRoot	src/fontconfig.nim	/^proc FcConfigSetSysRoot*(config: ptr TFcConfig; sysroot: ptr TFcChar8) {.cdecl,$/;"	p
+FcConfigSubstitute	src/fontconfig.nim	/^proc FcConfigSubstitute*(config: ptr TFcConfig; p: ptr TFcPattern;$/;"	p
+FcConfigSubstituteWithPat	src/fontconfig.nim	/^proc FcConfigSubstituteWithPat*(config: ptr TFcConfig; p: ptr TFcPattern;$/;"	p
+FcConfigUptoDate	src/fontconfig.nim	/^proc FcConfigUptoDate*(config: ptr TFcConfig): TFcBool {.cdecl,$/;"	p
+FcDefaultSubstitute	src/fontconfig.nim	/^proc FcDefaultSubstitute*(pattern: ptr TFcPattern) {.cdecl,$/;"	p
+FcDirCacheClean	src/fontconfig.nim	/^proc FcDirCacheClean*(cache_dir: ptr TFcChar8; verbose: TFcBool): TFcBool {.$/;"	p
+FcDirCacheLoad	src/fontconfig.nim	/^proc FcDirCacheLoad*(dir: ptr TFcChar8; config: ptr TFcConfig;$/;"	p
+FcDirCacheLoadFile	src/fontconfig.nim	/^#proc FcDirCacheLoadFile*(cache_file: ptr TFcChar8; file_stat: ptr stat): ptr TFcCache {.$/;"	p
+FcDirCacheRead	src/fontconfig.nim	/^proc FcDirCacheRead*(dir: ptr TFcChar8; force: TFcBool; config: ptr TFcConfig): ptr TFcCache {.$/;"	p
+FcDirCacheUnlink	src/fontconfig.nim	/^proc FcDirCacheUnlink*(dir: ptr TFcChar8; config: ptr TFcConfig): TFcBool {.$/;"	p
+FcDirCacheUnload	src/fontconfig.nim	/^proc FcDirCacheUnload*(cache: ptr TFcCache) {.cdecl,$/;"	p
+FcDirCacheValid	src/fontconfig.nim	/^proc FcDirCacheValid*(cache_file: ptr TFcChar8): TFcBool {.cdecl,$/;"	p
+FcDirSave	src/fontconfig.nim	/^proc FcDirSave*(set: ptr TFcFontSet; dirs: ptr TFcStrSet; dir: ptr TFcChar8): TFcBool {.$/;"	p
+FcDirScan	src/fontconfig.nim	/^proc FcDirScan*(set: ptr TFcFontSet; dirs: ptr TFcStrSet;$/;"	p
+FcFileIsDir	src/fontconfig.nim	/^proc FcFileIsDir*(file: ptr TFcChar8): TFcBool {.cdecl, importc: "FcFileIsDir",$/;"	p
+FcFileScan	src/fontconfig.nim	/^proc FcFileScan*(set: ptr TFcFontSet; dirs: ptr TFcStrSet;$/;"	p
+FcFini	src/fontconfig.nim	/^proc FcFini*() {.cdecl, importc: "FcFini", libfontconfig.}$/;"	p
+FcFontList	src/fontconfig.nim	/^proc FcFontList*(config: ptr TFcConfig; p: ptr TFcPattern; os: ptr TFcObjectSet): ptr TFcFontSet/;"	p
+FcFontMatch	src/fontconfig.nim	/^proc FcFontMatch*(config: ptr TFcConfig; p: ptr TFcPattern;$/;"	p
+FcFontRenderPrepare	src/fontconfig.nim	/^proc FcFontRenderPrepare*(config: ptr TFcConfig; pat: ptr TFcPattern;$/;"	p
+FcFontSetAdd	src/fontconfig.nim	/^proc FcFontSetAdd*(s: ptr TFcFontSet; font: ptr TFcPattern): TFcBool {.cdecl,$/;"	p
+FcFontSetCreate	src/fontconfig.nim	/^proc FcFontSetCreate*(): ptr TFcFontSet {.cdecl, importc: "FcFontSetCreate",$/;"	p
+FcFontSetDestroy	src/fontconfig.nim	/^proc FcFontSetDestroy*(s: ptr TFcFontSet) {.cdecl, importc: "FcFontSetDestroy",$/;"	p
+FcFontSetList	src/fontconfig.nim	/^proc FcFontSetList*(config: ptr TFcConfig; sets: ptr ptr TFcFontSet;$/;"	p
+FcFontSetMatch	src/fontconfig.nim	/^proc FcFontSetMatch*(config: ptr TFcConfig; sets: ptr ptr TFcFontSet;$/;"	p
+FcFontSetPrint	src/fontconfig.nim	/^proc FcFontSetPrint*(s: ptr TFcFontSet) {.cdecl, importc: "FcFontSetPrint",$/;"	p
+FcFontSetSort	src/fontconfig.nim	/^proc FcFontSetSort*(config: ptr TFcConfig; sets: ptr ptr TFcFontSet;$/;"	p
+FcFontSetSortDestroy	src/fontconfig.nim	/^proc FcFontSetSortDestroy*(fs: ptr TFcFontSet) {.cdecl,$/;"	p
+FcFontSort	src/fontconfig.nim	/^proc FcFontSort*(config: ptr TFcConfig; p: ptr TFcPattern; trim: TFcBool;$/;"	p
+FcFreeTypeQuery	src/fontconfig.nim	/^proc FcFreeTypeQuery*(file: ptr TFcChar8; id: cint; blanks: ptr TFcBlanks;$/;"	p
+FcGetDefaultLangs	src/fontconfig.nim	/^proc FcGetDefaultLangs*(): ptr TFcStrSet {.cdecl, importc: "FcGetDefaultLangs",$/;"	p
+FcGetLangs	src/fontconfig.nim	/^proc FcGetLangs*(): ptr TFcStrSet {.cdecl, importc: "FcGetLangs",$/;"	p
+FcGetVersion	src/fontconfig.nim	/^proc FcGetVersion*(): cint {.cdecl, importc: "FcGetVersion", libfontconfig.}$/;"	p
+FcInit	src/fontconfig.nim	/^proc FcInit*(): TFcBool {.cdecl, importc: "FcInit", libfontconfig.}$/;"	p
+FcInitBringUptoDate	src/fontconfig.nim	/^proc FcInitBringUptoDate*(): TFcBool {.cdecl, importc: "FcInitBringUptoDate",$/;"	p
+FcInitLoadConfig	src/fontconfig.nim	/^proc FcInitLoadConfig*(): ptr TFcConfig {.cdecl, importc: "FcInitLoadConfig",$/;"	p
+FcInitLoadConfigAndFonts	src/fontconfig.nim	/^proc FcInitLoadConfigAndFonts*(): ptr TFcConfig {.cdecl,$/;"	p
+FcInitReinitialize	src/fontconfig.nim	/^proc FcInitReinitialize*(): TFcBool {.cdecl, importc: "FcInitReinitialize",$/;"	p
+FcIsLower	src/fontconfig.nim	/^template FcIsLower*(c): untyped =$/;"	T
+FcIsUpper	src/fontconfig.nim	/^template FcIsUpper*(c): untyped =$/;"	T
+FcLangGetCharSet	src/fontconfig.nim	/^proc FcLangGetCharSet*(lang: ptr TFcChar8): ptr TFcCharSet {.cdecl,$/;"	p
+FcLangNormalize	src/fontconfig.nim	/^proc FcLangNormalize*(lang: ptr TFcChar8): ptr TFcChar8 {.cdecl,$/;"	p
+FcLangSetAdd	src/fontconfig.nim	/^proc FcLangSetAdd*(ls: ptr TFcLangSet; lang: ptr TFcChar8): TFcBool {.cdecl,$/;"	p
+FcLangSetCompare	src/fontconfig.nim	/^proc FcLangSetCompare*(lsa: ptr TFcLangSet; lsb: ptr TFcLangSet): TFcLangResult {.$/;"	p
+FcLangSetContains	src/fontconfig.nim	/^proc FcLangSetContains*(lsa: ptr TFcLangSet; lsb: ptr TFcLangSet): TFcBool {.$/;"	p
+FcLangSetCopy	src/fontconfig.nim	/^proc FcLangSetCopy*(ls: ptr TFcLangSet): ptr TFcLangSet {.cdecl,$/;"	p
+FcLangSetCreate	src/fontconfig.nim	/^proc FcLangSetCreate*(): ptr TFcLangSet {.cdecl, importc: "FcLangSetCreate",$/;"	p
+FcLangSetDel	src/fontconfig.nim	/^proc FcLangSetDel*(ls: ptr TFcLangSet; lang: ptr TFcChar8): TFcBool {.cdecl,$/;"	p
+FcLangSetDestroy	src/fontconfig.nim	/^proc FcLangSetDestroy*(ls: ptr TFcLangSet) {.cdecl, importc: "FcLangSetDestroy",$/;"	p
+FcLangSetEqual	src/fontconfig.nim	/^proc FcLangSetEqual*(lsa: ptr TFcLangSet; lsb: ptr TFcLangSet): TFcBool {.cdecl,$/;"	p
+FcLangSetGetLangs	src/fontconfig.nim	/^proc FcLangSetGetLangs*(ls: ptr TFcLangSet): ptr TFcStrSet {.cdecl,$/;"	p
+FcLangSetHasLang	src/fontconfig.nim	/^proc FcLangSetHasLang*(ls: ptr TFcLangSet; lang: ptr TFcChar8): TFcLangResult {.$/;"	p
+FcLangSetHash	src/fontconfig.nim	/^proc FcLangSetHash*(ls: ptr TFcLangSet): TFcChar32 {.cdecl,$/;"	p
+FcLangSetSubtract	src/fontconfig.nim	/^proc FcLangSetSubtract*(a: ptr TFcLangSet; b: ptr TFcLangSet): ptr TFcLangSet {.$/;"	p
+FcLangSetUnion	src/fontconfig.nim	/^proc FcLangSetUnion*(a: ptr TFcLangSet; b: ptr TFcLangSet): ptr TFcLangSet {.$/;"	p
+FcMatrixCopy	src/fontconfig.nim	/^proc FcMatrixCopy*(mat: ptr TFcMatrix): ptr TFcMatrix {.cdecl,$/;"	p
+FcMatrixEqual	src/fontconfig.nim	/^proc FcMatrixEqual*(mat1: ptr TFcMatrix; mat2: ptr TFcMatrix): TFcBool {.cdecl,$/;"	p
+FcMatrixMultiply	src/fontconfig.nim	/^proc FcMatrixMultiply*(result: ptr TFcMatrix; a: ptr TFcMatrix; b: ptr TFcMatrix) {.$/;"	p
+FcMatrixRotate	src/fontconfig.nim	/^proc FcMatrixRotate*(m: ptr TFcMatrix; c: cdouble; s: cdouble) {.cdecl,$/;"	p
+FcMatrixScale	src/fontconfig.nim	/^proc FcMatrixScale*(m: ptr TFcMatrix; sx: cdouble; sy: cdouble) {.cdecl,$/;"	p
+FcMatrixShear	src/fontconfig.nim	/^proc FcMatrixShear*(m: ptr TFcMatrix; sh: cdouble; sv: cdouble) {.cdecl,$/;"	p
+FcNameConstant	src/fontconfig.nim	/^proc FcNameConstant*(string: ptr TFcChar8; result: ptr cint): TFcBool {.cdecl,$/;"	p
+FcNameGetConstant	src/fontconfig.nim	/^proc FcNameGetConstant*(string: ptr TFcChar8): ptr TFcConstant {.cdecl,$/;"	p
+FcNameGetObjectType	src/fontconfig.nim	/^proc FcNameGetObjectType*(theObject: cstring): ptr TFcObjectType {.cdecl,$/;"	p
+FcNameParse	src/fontconfig.nim	/^proc FcNameParse*(name: ptr TFcChar8): ptr TFcPattern {.cdecl,$/;"	p
+FcNameRegisterConstants	src/fontconfig.nim	/^proc FcNameRegisterConstants*(consts: ptr TFcConstant; nconsts: cint): TFcBool {.$/;"	p
+FcNameRegisterObjectTypes	src/fontconfig.nim	/^proc FcNameRegisterObjectTypes*(types: ptr TFcObjectType; ntype: cint): TFcBool {.$/;"	p
+FcNameUnparse	src/fontconfig.nim	/^proc FcNameUnparse*(pat: ptr TFcPattern): ptr TFcChar8 {.cdecl,$/;"	p
+FcNameUnregisterConstants	src/fontconfig.nim	/^proc FcNameUnregisterConstants*(consts: ptr TFcConstant; nconsts: cint): TFcBool {.$/;"	p
+FcNameUnregisterObjectTypes	src/fontconfig.nim	/^proc FcNameUnregisterObjectTypes*(types: ptr TFcObjectType; ntype: cint): TFcBool {.$/;"	p
+FcObjectSetAdd	src/fontconfig.nim	/^proc FcObjectSetAdd*(os: ptr TFcObjectSet; theObject: cstring): TFcBool {.cdecl,$/;"	p
+FcObjectSetBuild	src/fontconfig.nim	/^proc FcObjectSetBuild*(first: cstring): ptr TFcObjectSet {.varargs, cdecl,$/;"	p
+FcObjectSetCreate	src/fontconfig.nim	/^proc FcObjectSetCreate*(): ptr TFcObjectSet {.cdecl,$/;"	p
+FcObjectSetDestroy	src/fontconfig.nim	/^proc FcObjectSetDestroy*(os: ptr TFcObjectSet) {.cdecl,$/;"	p
+FcObjectSetVaBuild	src/fontconfig.nim	/^#proc FcObjectSetVaBuild*(first: cstring; va: va_list): ptr TFcObjectSet {.cdecl,$/;"	p
+FcPatternAdd	src/fontconfig.nim	/^proc FcPatternAdd*(p: ptr TFcPattern; theObject: cstring; value: TFcValue;$/;"	p
+FcPatternAddBool	src/fontconfig.nim	/^proc FcPatternAddBool*(p: ptr TFcPattern; theObject: cstring; b: TFcBool): TFcBool {.$/;"	p
+FcPatternAddCharSet	src/fontconfig.nim	/^proc FcPatternAddCharSet*(p: ptr TFcPattern; theObject: cstring;$/;"	p
+FcPatternAddDouble	src/fontconfig.nim	/^proc FcPatternAddDouble*(p: ptr TFcPattern; theObject: cstring; d: cdouble): TFcBool {.$/;"	p
+FcPatternAddInteger	src/fontconfig.nim	/^proc FcPatternAddInteger*(p: ptr TFcPattern; theObject: cstring; i: cint): TFcBool {.$/;"	p
+FcPatternAddLangSet	src/fontconfig.nim	/^proc FcPatternAddLangSet*(p: ptr TFcPattern; theObject: cstring;$/;"	p
+FcPatternAddMatrix	src/fontconfig.nim	/^proc FcPatternAddMatrix*(p: ptr TFcPattern; theObject: cstring; s: ptr TFcMatrix): TFcBool {.$/;"	p
+FcPatternAddString	src/fontconfig.nim	/^proc FcPatternAddString*(p: ptr TFcPattern; theObject: cstring; s: ptr TFcChar8): TFcBool {.$/;"	p
+FcPatternAddWeak	src/fontconfig.nim	/^proc FcPatternAddWeak*(p: ptr TFcPattern; theObject: cstring; value: TFcValue;$/;"	p
+FcPatternBuild	src/fontconfig.nim	/^proc FcPatternBuild*(p: ptr TFcPattern): ptr TFcPattern {.varargs, cdecl,$/;"	p
+FcPatternCreate	src/fontconfig.nim	/^proc FcPatternCreate*(): ptr TFcPattern {.cdecl, importc: "FcPatternCreate",$/;"	p
+FcPatternDel	src/fontconfig.nim	/^proc FcPatternDel*(p: ptr TFcPattern; theObject: cstring): TFcBool {.cdecl,$/;"	p
+FcPatternDestroy	src/fontconfig.nim	/^proc FcPatternDestroy*(p: ptr TFcPattern) {.cdecl, importc: "FcPatternDestroy",$/;"	p
+FcPatternDuplicate	src/fontconfig.nim	/^proc FcPatternDuplicate*(p: ptr TFcPattern): ptr TFcPattern {.cdecl,$/;"	p
+FcPatternEqual	src/fontconfig.nim	/^proc FcPatternEqual*(pa: ptr TFcPattern; pb: ptr TFcPattern): TFcBool {.cdecl,$/;"	p
+FcPatternEqualSubset	src/fontconfig.nim	/^proc FcPatternEqualSubset*(pa: ptr TFcPattern; pb: ptr TFcPattern;$/;"	p
+FcPatternFilter	src/fontconfig.nim	/^proc FcPatternFilter*(p: ptr TFcPattern; os: ptr TFcObjectSet): ptr TFcPattern {.$/;"	p
+FcPatternFormat	src/fontconfig.nim	/^proc FcPatternFormat*(pat: ptr TFcPattern; format: ptr TFcChar8): ptr TFcChar8 {.$/;"	p
+FcPatternGet	src/fontconfig.nim	/^proc FcPatternGet*(p: ptr TFcPattern; theObject: cstring; id: cint;$/;"	p
+FcPatternGetBool	src/fontconfig.nim	/^proc FcPatternGetBool*(p: ptr TFcPattern; theObject: cstring; n: cint;$/;"	p
+FcPatternGetCharSet	src/fontconfig.nim	/^proc FcPatternGetCharSet*(p: ptr TFcPattern; theObject: cstring; n: cint;$/;"	p
+FcPatternGetDouble	src/fontconfig.nim	/^proc FcPatternGetDouble*(p: ptr TFcPattern; theObject: cstring; n: cint;$/;"	p
+FcPatternGetInteger	src/fontconfig.nim	/^proc FcPatternGetInteger*(p: ptr TFcPattern; theObject: cstring; n: cint;$/;"	p
+FcPatternGetLangSet	src/fontconfig.nim	/^proc FcPatternGetLangSet*(p: ptr TFcPattern; theObject: cstring; n: cint;$/;"	p
+FcPatternGetMatrix	src/fontconfig.nim	/^proc FcPatternGetMatrix*(p: ptr TFcPattern; theObject: cstring; n: cint;$/;"	p
+FcPatternGetString	src/fontconfig.nim	/^proc FcPatternGetString*(p: ptr TFcPattern; theObject: cstring; n: cint;$/;"	p
+FcPatternHash	src/fontconfig.nim	/^proc FcPatternHash*(p: ptr TFcPattern): TFcChar32 {.cdecl,$/;"	p
+FcPatternPrint	src/fontconfig.nim	/^proc FcPatternPrint*(p: ptr TFcPattern) {.cdecl, importc: "FcPatternPrint",$/;"	p
+FcPatternReference	src/fontconfig.nim	/^proc FcPatternReference*(p: ptr TFcPattern) {.cdecl,$/;"	p
+FcPatternRemove	src/fontconfig.nim	/^proc FcPatternRemove*(p: ptr TFcPattern; theObject: cstring; id: cint): TFcBool {.$/;"	p
+FcPatternVaBuild	src/fontconfig.nim	/^#proc FcPatternVaBuild*(p: ptr TFcPattern; va: va_list): ptr TFcPattern {.cdecl,$/;"	p
+FcStrBasename	src/fontconfig.nim	/^proc FcStrBasename*(file: ptr TFcChar8): ptr TFcChar8 {.cdecl,$/;"	p
+FcStrCmp	src/fontconfig.nim	/^proc FcStrCmp*(s1: ptr TFcChar8; s2: ptr TFcChar8): cint {.cdecl,$/;"	p
+FcStrCmpIgnoreCase	src/fontconfig.nim	/^proc FcStrCmpIgnoreCase*(s1: ptr TFcChar8; s2: ptr TFcChar8): cint {.cdecl,$/;"	p
+FcStrCopy	src/fontconfig.nim	/^proc FcStrCopy*(s: ptr TFcChar8): ptr TFcChar8 {.cdecl, importc: "FcStrCopy",$/;"	p
+FcStrCopyFilename	src/fontconfig.nim	/^proc FcStrCopyFilename*(s: ptr TFcChar8): ptr TFcChar8 {.cdecl,$/;"	p
+FcStrDirname	src/fontconfig.nim	/^proc FcStrDirname*(file: ptr TFcChar8): ptr TFcChar8 {.cdecl,$/;"	p
+FcStrDowncase	src/fontconfig.nim	/^proc FcStrDowncase*(s: ptr TFcChar8): ptr TFcChar8 {.cdecl,$/;"	p
+FcStrFree	src/fontconfig.nim	/^proc FcStrFree*(s: ptr TFcChar8) {.cdecl, importc: "FcStrFree",$/;"	p
+FcStrListCreate	src/fontconfig.nim	/^proc FcStrListCreate*(set: ptr TFcStrSet): ptr TFcStrList {.cdecl,$/;"	p
+FcStrListDone	src/fontconfig.nim	/^proc FcStrListDone*(list: ptr TFcStrList) {.cdecl, importc: "FcStrListDone",$/;"	p
+FcStrListNext	src/fontconfig.nim	/^proc FcStrListNext*(list: ptr TFcStrList): ptr TFcChar8 {.cdecl,$/;"	p
+FcStrPlus	src/fontconfig.nim	/^proc FcStrPlus*(s1: ptr TFcChar8; s2: ptr TFcChar8): ptr TFcChar8 {.cdecl,$/;"	p
+FcStrSetAdd	src/fontconfig.nim	/^proc FcStrSetAdd*(set: ptr TFcStrSet; s: ptr TFcChar8): TFcBool {.cdecl,$/;"	p
+FcStrSetAddFilename	src/fontconfig.nim	/^proc FcStrSetAddFilename*(set: ptr TFcStrSet; s: ptr TFcChar8): TFcBool {.cdecl,$/;"	p
+FcStrSetCreate	src/fontconfig.nim	/^proc FcStrSetCreate*(): ptr TFcStrSet {.cdecl, importc: "FcStrSetCreate",$/;"	p
+FcStrSetDel	src/fontconfig.nim	/^proc FcStrSetDel*(set: ptr TFcStrSet; s: ptr TFcChar8): TFcBool {.cdecl,$/;"	p
+FcStrSetDestroy	src/fontconfig.nim	/^proc FcStrSetDestroy*(set: ptr TFcStrSet) {.cdecl, importc: "FcStrSetDestroy",$/;"	p
+FcStrSetEqual	src/fontconfig.nim	/^proc FcStrSetEqual*(sa: ptr TFcStrSet; sb: ptr TFcStrSet): TFcBool {.cdecl,$/;"	p
+FcStrSetMember	src/fontconfig.nim	/^proc FcStrSetMember*(set: ptr TFcStrSet; s: ptr TFcChar8): TFcBool {.cdecl,$/;"	p
+FcStrStr	src/fontconfig.nim	/^proc FcStrStr*(s1: ptr TFcChar8; s2: ptr TFcChar8): ptr TFcChar8 {.cdecl,$/;"	p
+FcStrStrIgnoreCase	src/fontconfig.nim	/^proc FcStrStrIgnoreCase*(s1: ptr TFcChar8; s2: ptr TFcChar8): ptr TFcChar8 {.$/;"	p
+FcToLower	src/fontconfig.nim	/^template FcToLower*(c): untyped =$/;"	T
+FcUcs4ToUtf8	src/fontconfig.nim	/^proc FcUcs4ToUtf8*(ucs4: TFcChar32;$/;"	p
+FcUtf16Len	src/fontconfig.nim	/^proc FcUtf16Len*(string: ptr TFcChar8; endian: TFcEndian; len: cint;$/;"	p
+FcUtf16ToUcs4	src/fontconfig.nim	/^proc FcUtf16ToUcs4*(src_orig: ptr TFcChar8; endian: TFcEndian;$/;"	p
+FcUtf8Len	src/fontconfig.nim	/^proc FcUtf8Len*(string: ptr TFcChar8; len: cint; nchar: ptr cint;$/;"	p
+FcUtf8ToUcs4	src/fontconfig.nim	/^proc FcUtf8ToUcs4*(src_orig: ptr TFcChar8; dst: ptr TFcChar32; len: cint): cint {.$/;"	p
+FcValueDestroy	src/fontconfig.nim	/^proc FcValueDestroy*(v: TFcValue) {.cdecl, importc: "FcValueDestroy",$/;"	p
+FcValueEqual	src/fontconfig.nim	/^proc FcValueEqual*(va: TFcValue; vb: TFcValue): TFcBool {.cdecl,$/;"	p
+FcValuePrint	src/fontconfig.nim	/^proc FcValuePrint*(v: TFcValue) {.cdecl, importc: "FcValuePrint",$/;"	p
+FcValueSave	src/fontconfig.nim	/^proc FcValueSave*(v: TFcValue): TFcValue {.cdecl, importc: "FcValueSave",$/;"	p
+Fnt	src/draw.nim	/^  Fnt* = object$/;"	c
+HEIGHT	src/conman.nim	/^template HEIGHT(X): untyped =$/;"	T
+HEIGHT	src/conmanbar.nim	/^template HEIGHT(X): untyped =$/;"	T
+INTERSECT	src/conman.nim	/^template INTERSECT(v, x,y,w,h,m) =$/;"	T
+INTERSECT	src/conmanbar.nim	/^template INTERSECT(v, x,y,w,h,m) =$/;"	T
+Monitor	src/conman.nim	/^  Monitor = object$/;"	c
+Monitor	src/conmanbar.nim	/^  Monitor = object$/;"	c
+Pe	src/conman.nim	/^  Pe = object$/;"	c
+Pe	src/conmanbar.nim	/^  Pe = object$/;"	c
+Pk	src/conman.nim	/^  Pk = object$/;"	c
+Pk	src/conmanbar.nim	/^  Pk = object$/;"	c
+Rule	src/conman.nim	/^  Rule = object$/;"	c
+Rule	src/conmanbar.nim	/^  Rule = object$/;"	c
+Statusblock	src/conman.nim	/^  Statusblock = object$/;"	c
+Statusblock	src/conmanbar.nim	/^  Statusblock = object$/;"	c
+Systray	src/conman.nim	/^  Systray = object$/;"	c
+Systray	src/conmanbar.nim	/^  Systray = object$/;"	c
+TEXTW	src/conman.nim	/^template TEXTW(X): untyped =$/;"	T
+TEXTW	src/conmanbar.nim	/^template TEXTW(X): untyped =$/;"	T
+TFcAtomic	src/fontconfig.nim	/^  TFcAtomic* = object$/;"	c
+TFcBlanks	src/fontconfig.nim	/^  TFcBlanks* = object$/;"	c
+TFcCache	src/fontconfig.nim	/^  TFcCache* = object$/;"	c
+TFcCharSet	src/fontconfig.nim	/^  TFcCharSet* = object$/;"	c
+TFcConfig	src/fontconfig.nim	/^  TFcConfig* = object$/;"	c
+TFcFileCache	src/fontconfig.nim	/^  TFcFileCache* = object$/;"	c
+TFcLangSet	src/fontconfig.nim	/^  TFcLangSet* = object$/;"	c
+TFcPattern	src/fontconfig.nim	/^  TFcPattern* = object$/;"	c
+TFcStrList	src/fontconfig.nim	/^  TFcStrList* = object$/;"	c
+TFcStrSet	src/fontconfig.nim	/^  TFcStrSet* = object$/;"	c
+TXftDraw	src/draw.nim	/^  TXftDraw = object$/;"	c
+TXftFont	src/draw.nim	/^  TXftFont = object$/;"	c
+Usage	README.md	/^## Usage$/;"	s
+WIDTH	src/conman.nim	/^template WIDTH(X): untyped =$/;"	T
+WIDTH	src/conmanbar.nim	/^template WIDTH(X): untyped =$/;"	T
+XGetXCBConnection	src/conman.nim	/^proc XGetXCBConnection(dpy: PDisplay): ptr xcb_connection_t {.importc: "XGetXCBConnection", cdec/;"	p
+XGetXCBConnection	src/conmanbar.nim	/^proc XGetXCBConnection(dpy: PDisplay): ptr xcb_connection_t {.importc: "XGetXCBConnection", cdec/;"	p
+XRDB_LOAD_COLOR	src/conman.nim	/^template XRDB_LOAD_COLOR(R,V): untyped =$/;"	T
+XRDB_LOAD_COLOR	src/conmanbar.nim	/^template XRDB_LOAD_COLOR(R,V): untyped =$/;"	T
+XftCharExists	src/draw.nim	/^proc XftCharExists(dpy: PDisplay, font: PXftFont, c: TFcChar32): TFcBool {.cdecl, dynlib: libXft/;"	p
+XftColorAllocName	src/draw.nim	/^proc XftColorAllocName(dpy: PDisplay, v: PVisual, c: TColorMap, clrname: cstring, dest: PClr): c/;"	p
+XftDrawCreate	src/draw.nim	/^proc XftDrawCreate(dpy: PDisplay, d: TDrawable, v: PVisual, c: TColorMap): PXftDraw {.cdecl, dyn/;"	p
+XftDrawDestroy	src/draw.nim	/^proc XftDrawDestroy(drw: PXftDraw) {.cdecl, dynlib: libXft, importc.} $/;"	p
+XftDrawStringUtf8	src/draw.nim	/^proc XftDrawStringUtf8(d: PXftDraw, col: PClr, font: PXftFont, x, y: cint, buf: cstring, l: csiz/;"	p
+XftFontClose	src/draw.nim	/^proc XftFontClose(dpy: PDisplay, font: PXftFont) {.cdecl, dynlib: libXft, importc.} $/;"	p
+XftFontMatch	src/draw.nim	/^proc XftFontMatch(dpy: PDisplay, screen: cint, pattern: PFcPattern, result: ptr TFcResult): PFcP/;"	p
+XftFontOpenName	src/draw.nim	/^proc XftFontOpenName(dpy: PDisplay, screen: cint, arg1: cstring): PXftFont {.cdecl, dynlib: libX/;"	p
+XftFontOpenPattern	src/draw.nim	/^proc XftFontOpenPattern(dpy: PDisplay, arg1: PFcPattern): PXftFont {.cdecl, dynlib: libXft, impo/;"	p
+XftTextExtentsUtf8	src/draw.nim	/^proc XftTextExtentsUtf8(dpy: PDisplay, font: PXftFont, arg1: cstring, l: cint, e: PXGlyphInfo): /;"	p
+applyrules	src/conman.nim	/^proc applyrules(c: PClient) =$/;"	p
+applyrules	src/conman.nim	/^proc applyrules(c: PClient)$/;"	p
+applyrules	src/conmanbar.nim	/^proc applyrules(c: PClient) =$/;"	p
+applyrules	src/conmanbar.nim	/^proc applyrules(c: PClient)$/;"	p
+applysizehints	src/conman.nim	/^proc applysizehints(c: PClient, x, y, w, h: ptr cint, interact: bool): bool =$/;"	p
+applysizehints	src/conman.nim	/^proc applysizehints(c: PClient, x, y, w, h: ptr cint, interact: bool): bool$/;"	p
+applysizehints	src/conmanbar.nim	/^proc applysizehints(c: PClient, x, y, w, h: ptr cint, interact: bool): bool =$/;"	p
+applysizehints	src/conmanbar.nim	/^proc applysizehints(c: PClient, x, y, w, h: ptr cint, interact: bool): bool$/;"	p
+arrange	src/conman.nim	/^proc arrange(m: PMonitor) =$/;"	p
+arrange	src/conman.nim	/^proc arrange(m: PMonitor)$/;"	p
+arrange	src/conmanbar.nim	/^proc arrange(m: PMonitor) =$/;"	p
+arrange	src/conmanbar.nim	/^proc arrange(m: PMonitor)$/;"	p
+buttonpress	src/conman.nim	/^proc buttonpress(ev: TXEvent) =$/;"	p
+buttonpress	src/conman.nim	/^proc buttonpress(ev: TXEvent)$/;"	p
+buttonpress	src/conmanbar.nim	/^proc buttonpress(ev: TXEvent) =$/;"	p
+buttonpress	src/conmanbar.nim	/^proc buttonpress(ev: TXEvent)$/;"	p
+center	src/conman.nim	/^proc center(A: Arg) =$/;"	p
+center	src/conman.nim	/^proc center(A: Arg)$/;"	p
+center	src/conman.nim	/^proc center(c: PClient) =$/;"	p
+center	src/conman.nim	/^proc center(c: PClient)$/;"	p
+center	src/conmanbar.nim	/^proc center(A: Arg) =$/;"	p
+center	src/conmanbar.nim	/^proc center(A: Arg)$/;"	p
+center	src/conmanbar.nim	/^proc center(c: PClient) =$/;"	p
+center	src/conmanbar.nim	/^proc center(c: PClient)$/;"	p
+checkotherwm	src/conman.nim	/^proc checkotherwm(dpy: PDisplay) =$/;"	p
+checkotherwm	src/conman.nim	/^proc checkotherwm(dpy: PDisplay)$/;"	p
+checkotherwm	src/conmanbar.nim	/^proc checkotherwm(dpy: PDisplay) =$/;"	p
+checkotherwm	src/conmanbar.nim	/^proc checkotherwm(dpy: PDisplay)$/;"	p
+clickbarl	src/conman.nim	/^proc clickbarl(a: Arg) =$/;"	p
+clickbarl	src/conman.nim	/^proc clickbarl(a: Arg)$/;"	p
+clickbarl	src/conmanbar.nim	/^proc clickbarl(a: Arg) =$/;"	p
+clickbarl	src/conmanbar.nim	/^proc clickbarl(a: Arg)$/;"	p
+clickbarr	src/conman.nim	/^proc clickbarr(a: Arg) =$/;"	p
+clickbarr	src/conman.nim	/^proc clickbarr(a: Arg)$/;"	p
+clickbarr	src/conmanbar.nim	/^proc clickbarr(a: Arg) =$/;"	p
+clickbarr	src/conmanbar.nim	/^proc clickbarr(a: Arg)$/;"	p
+clientmessage	src/conman.nim	/^proc clientmessage(ev: TXEvent) =$/;"	p
+clientmessage	src/conman.nim	/^proc clientmessage(ev: TXEvent)$/;"	p
+clientmessage	src/conmanbar.nim	/^proc clientmessage(ev: TXEvent) =$/;"	p
+clientmessage	src/conmanbar.nim	/^proc clientmessage(ev: TXEvent)$/;"	p
+configure	src/conman.nim	/^proc configure(c: PClient) =$/;"	p
+configure	src/conman.nim	/^proc configure(c: PClient)$/;"	p
+configure	src/conmanbar.nim	/^proc configure(c: PClient) =$/;"	p
+configure	src/conmanbar.nim	/^proc configure(c: PClient)$/;"	p
+configurenotify	src/conman.nim	/^proc configurenotify(ev: TXEvent) =$/;"	p
+configurenotify	src/conman.nim	/^proc configurenotify(ev: TXEvent)$/;"	p
+configurenotify	src/conmanbar.nim	/^proc configurenotify(ev: TXEvent) =$/;"	p
+configurenotify	src/conmanbar.nim	/^proc configurenotify(ev: TXEvent)$/;"	p
+configurerequest	src/conman.nim	/^proc configurerequest(ev: TXEvent) =$/;"	p
+configurerequest	src/conman.nim	/^proc configurerequest(ev: TXEvent)$/;"	p
+configurerequest	src/conmanbar.nim	/^proc configurerequest(ev: TXEvent) =$/;"	p
+configurerequest	src/conmanbar.nim	/^proc configurerequest(ev: TXEvent)$/;"	p
+createmon	src/conman.nim	/^proc createmon(): PMonitor =$/;"	p
+createmon	src/conman.nim	/^proc createmon(): PMonitor$/;"	p
+createmon	src/conmanbar.nim	/^proc createmon(): PMonitor =$/;"	p
+createmon	src/conmanbar.nim	/^proc createmon(): PMonitor$/;"	p
+cursors	src/conman.nim	/^  cursors = enum$/;"	e
+cursors	src/conmanbar.nim	/^  cursors = enum$/;"	e
+cyclefocus	src/conman.nim	/^proc cyclefocus(a: Arg) =$/;"	p
+cyclefocus	src/conman.nim	/^proc cyclefocus(a: Arg)$/;"	p
+cyclefocus	src/conmanbar.nim	/^proc cyclefocus(a: Arg) =$/;"	p
+cyclefocus	src/conmanbar.nim	/^proc cyclefocus(a: Arg)$/;"	p
+destroynotify	src/conman.nim	/^proc destroynotify(ev: TXEvent) =$/;"	p
+destroynotify	src/conman.nim	/^proc destroynotify(ev: TXEvent)$/;"	p
+destroynotify	src/conmanbar.nim	/^proc destroynotify(ev: TXEvent) =$/;"	p
+destroynotify	src/conmanbar.nim	/^proc destroynotify(ev: TXEvent)$/;"	p
+die	src/conman.nim	/^proc die(msg: cstring) =$/;"	p
+die	src/conman.nim	/^proc die(msg: cstring)$/;"	p
+die	src/conmanbar.nim	/^proc die(msg: cstring) =$/;"	p
+die	src/conmanbar.nim	/^proc die(msg: cstring)$/;"	p
+die	src/draw.nim	/^proc die(msg: cstring) =$/;"	p
+doWhile	src/conman.nim	/^template doWhile(a, b: untyped): untyped =$/;"	T
+doWhile	src/conmanbar.nim	/^template doWhile(a, b: untyped): untyped =$/;"	T
+drawbar	src/conman.nim	/^proc drawbar(m: PMonitor) =$/;"	p
+drawbar	src/conmanbar.nim	/^proc drawbar(m: PMonitor) =$/;"	p
+drawframe	src/conman.nim	/^proc drawframe(c: PClient) =$/;"	p
+drawframe	src/conman.nim	/^proc drawframe(c: PClient)$/;"	p
+drawframe	src/conmanbar.nim	/^proc drawframe(c: PClient) =$/;"	p
+drawframe	src/conmanbar.nim	/^proc drawframe(c: PClient)$/;"	p
+drw_clr_create	src/draw.nim	/^proc drw_clr_create*(drw: PDrw, clrname: string): TXColor =$/;"	p
+drw_create	src/draw.nim	/^proc drw_create*(dpy: PDisplay, screen: cint, root: TWindow, w, h: cuint): PDrw =$/;"	p
+drw_cur_create	src/draw.nim	/^proc drw_cur_create*(drw: PDrw, shape: cuint): PCur =$/;"	p
+drw_font_getexts	src/draw.nim	/^proc drw_font_getexts(font: PFnt, text: cstring, l: cint , w, h: ptr cint) =$/;"	p
+drw_fontset_create	src/draw.nim	/^proc drw_fontset_create*(drw: PDrw, fonts: var seq[cstring]): seq[PFnt] =$/;"	p
+drw_fontset_getwidth	src/draw.nim	/^proc drw_fontset_getwidth*(drw: PDrw, text: cstring): cuint =$/;"	p
+drw_free	src/draw.nim	/^proc drw_free*(drw: PDrw) =$/;"	p
+drw_map	src/draw.nim	/^proc drw_map*(drw: PDrw, win: TWindow, x, y: cint, w, h: cuint) =$/;"	p
+drw_rect	src/draw.nim	/^proc drw_rect*(drw: PDrw, x, y: cint, w, h: cuint, filled, invert, border: bool) =$/;"	p
+drw_resize	src/draw.nim	/^proc drw_resize*(drw: PDrw, w, h: cuint) =$/;"	p
+drw_scm_create	src/draw.nim	/^proc drw_scm_create*(drw: PDrw, clrnames: array[0..2, string]): seq[PClr]=$/;"	p
+drw_setscheme	src/draw.nim	/^proc drw_setscheme*(drw: PDrw, scm: seq[PClr]) =$/;"	p
+drw_text	src/draw.nim	/^proc drw_text*(drw: PDrw, x, y: cint, w, h, lpad: cuint, text: cstring, invert: bool): cuint =$/;"	p
+enternotify	src/conman.nim	/^proc enternotify(ev: TXEvent) =$/;"	p
+enternotify	src/conman.nim	/^proc enternotify(ev: TXEvent)$/;"	p
+enternotify	src/conmanbar.nim	/^proc enternotify(ev: TXEvent) =$/;"	p
+enternotify	src/conmanbar.nim	/^proc enternotify(ev: TXEvent)$/;"	p
+expose	src/conman.nim	/^proc expose(ev: TXEvent) =$/;"	p
+expose	src/conman.nim	/^proc expose(ev: TXEvent)$/;"	p
+expose	src/conmanbar.nim	/^proc expose(ev: TXEvent) =$/;"	p
+expose	src/conmanbar.nim	/^proc expose(ev: TXEvent)$/;"	p
+focus	src/conman.nim	/^proc focus(a: Arg) =$/;"	p
+focus	src/conman.nim	/^proc focus(a: Arg)$/;"	p
+focus	src/conman.nim	/^proc focus(cli: PClient) =$/;"	p
+focus	src/conman.nim	/^proc focus(cli: PClient)$/;"	p
+focus	src/conmanbar.nim	/^proc focus(a: Arg) =$/;"	p
+focus	src/conmanbar.nim	/^proc focus(a: Arg)$/;"	p
+focus	src/conmanbar.nim	/^proc focus(cli: PClient) =$/;"	p
+focus	src/conmanbar.nim	/^proc focus(cli: PClient)$/;"	p
+focusin	src/conman.nim	/^proc focusin(ev: TXEvent) =$/;"	p
+focusin	src/conman.nim	/^proc focusin(ev: TXEvent)$/;"	p
+focusin	src/conmanbar.nim	/^proc focusin(ev: TXEvent) =$/;"	p
+focusin	src/conmanbar.nim	/^proc focusin(ev: TXEvent)$/;"	p
+frame	src/conman.nim	/^proc frame(c: PClient) =$/;"	p
+frame	src/conman.nim	/^proc frame(c: PClient)$/;"	p
+frame	src/conmanbar.nim	/^proc frame(c: PClient) =$/;"	p
+frame	src/conmanbar.nim	/^proc frame(c: PClient)$/;"	p
+getatomprop	src/conman.nim	/^proc getatomprop(c: PCLient, prop: TAtom): TAtom$/;"	p
+getatomprop	src/conman.nim	/^proc getatomprop(c: PClient, prop: TAtom): TAtom =$/;"	p
+getatomprop	src/conmanbar.nim	/^proc getatomprop(c: PCLient, prop: TAtom): TAtom$/;"	p
+getatomprop	src/conmanbar.nim	/^proc getatomprop(c: PClient, prop: TAtom): TAtom =$/;"	p
+getlayoutname	src/conman.nim	/^proc getlayoutname(m: PMonitor): string =$/;"	p
+getlayoutname	src/conman.nim	/^proc getlayoutname(m: PMonitor): string$/;"	p
+getlayoutname	src/conmanbar.nim	/^proc getlayoutname(m: PMonitor): string =$/;"	p
+getlayoutname	src/conmanbar.nim	/^proc getlayoutname(m: PMonitor): string$/;"	p
+getparentprocess	src/conman.nim	/^proc getparentprocess(p: cint): cint =$/;"	p
+getparentprocess	src/conman.nim	/^proc getparentprocess(p: cint): cint$/;"	p
+getparentprocess	src/conmanbar.nim	/^proc getparentprocess(p: cint): cint =$/;"	p
+getparentprocess	src/conmanbar.nim	/^proc getparentprocess(p: cint): cint$/;"	p
+getrootptr	src/conman.nim	/^proc getrootptr(x, y: Pcint): bool =$/;"	p
+getrootptr	src/conmanbar.nim	/^proc getrootptr(x, y: Pcint): bool =$/;"	p
+getstatus	src/conman.nim	/^proc getstatus(): string =$/;"	p
+getstatus	src/conman.nim	/^proc getstatus(): string$/;"	p
+getstatus	src/conmanbar.nim	/^proc getstatus(): string =$/;"	p
+getstatus	src/conmanbar.nim	/^proc getstatus(): string$/;"	p
+getsystraywidth	src/conman.nim	/^proc getsystraywidth(): uint =$/;"	p
+getsystraywidth	src/conman.nim	/^proc getsystraywidth(): uint$/;"	p
+getsystraywidth	src/conmanbar.nim	/^proc getsystraywidth(): uint =$/;"	p
+getsystraywidth	src/conmanbar.nim	/^proc getsystraywidth(): uint$/;"	p
+gettextprop	src/conman.nim	/^proc gettextprop(w: TWindow, atom: TAtom): string =$/;"	p
+gettextprop	src/conman.nim	/^proc gettextprop(w: TWindow, atom: TAtom): string$/;"	p
+gettextprop	src/conmanbar.nim	/^proc gettextprop(w: TWindow, atom: TAtom): string =$/;"	p
+gettextprop	src/conmanbar.nim	/^proc gettextprop(w: TWindow, atom: TAtom): string$/;"	p
+gettitle	src/conman.nim	/^proc gettitle(m: PMonitor): string =$/;"	p
+gettitle	src/conman.nim	/^proc gettitle(m: PMonitor): string$/;"	p
+gettitle	src/conmanbar.nim	/^proc gettitle(m: PMonitor): string =$/;"	p
+gettitle	src/conmanbar.nim	/^proc gettitle(m: PMonitor): string$/;"	p
+grabbuttons	src/conman.nim	/^proc grabbuttons(c: PClient, focused: bool) =$/;"	p
+grabbuttons	src/conman.nim	/^proc grabbuttons(c: PClient, focused: bool)$/;"	p
+grabbuttons	src/conmanbar.nim	/^proc grabbuttons(c: PClient, focused: bool) =$/;"	p
+grabbuttons	src/conmanbar.nim	/^proc grabbuttons(c: PClient, focused: bool)$/;"	p
+grabkeys	src/conman.nim	/^proc grabkeys() =$/;"	p
+grabkeys	src/conman.nim	/^proc grabkeys()$/;"	p
+grabkeys	src/conmanbar.nim	/^proc grabkeys() =$/;"	p
+grabkeys	src/conmanbar.nim	/^proc grabkeys()$/;"	p
+isdescprocess	src/conman.nim	/^proc isdescprocess(p, c: cint): cint =$/;"	p
+isdescprocess	src/conman.nim	/^proc isdescprocess(p, c: cint): cint$/;"	p
+isdescprocess	src/conmanbar.nim	/^proc isdescprocess(p, c: cint): cint =$/;"	p
+isdescprocess	src/conmanbar.nim	/^proc isdescprocess(p, c: cint): cint$/;"	p
+isuniquegeom	src/conman.nim	/^proc isuniquegeom(unique: PXineramaScreenInfo, n: cuint, info: PXineramaScreenInfo): bool =$/;"	p
+isuniquegeom	src/conman.nim	/^proc isuniquegeom(unique: PXineramaScreenInfo, n: cuint, info: PXineramaScreenInfo): bool$/;"	p
+isuniquegeom	src/conmanbar.nim	/^proc isuniquegeom(unique: PXineramaScreenInfo, n: cuint, info: PXineramaScreenInfo): bool =$/;"	p
+isuniquegeom	src/conmanbar.nim	/^proc isuniquegeom(unique: PXineramaScreenInfo, n: cuint, info: PXineramaScreenInfo): bool$/;"	p
+keypress	src/conman.nim	/^proc keypress(ev: TXEvent) =$/;"	p
+keypress	src/conman.nim	/^proc keypress(ev: TXEvent)$/;"	p
+keypress	src/conmanbar.nim	/^proc keypress(ev: TXEvent) =$/;"	p
+keypress	src/conmanbar.nim	/^proc keypress(ev: TXEvent)$/;"	p
+killclient	src/conman.nim	/^proc killclient(a: Arg) =$/;"	p
+killclient	src/conman.nim	/^proc killclient(a: Arg)$/;"	p
+killclient	src/conmanbar.nim	/^proc killclient(a: Arg) =$/;"	p
+killclient	src/conmanbar.nim	/^proc killclient(a: Arg)$/;"	p
+killwm	src/conman.nim	/^proc killwm(a: Arg) =$/;"	p
+killwm	src/conman.nim	/^proc killwm(a: Arg)$/;"	p
+killwm	src/conmanbar.nim	/^proc killwm(a: Arg) =$/;"	p
+killwm	src/conmanbar.nim	/^proc killwm(a: Arg)$/;"	p
+loadxrdb	src/conman.nim	/^proc loadxrdb() =$/;"	p
+loadxrdb	src/conman.nim	/^proc loadxrdb()$/;"	p
+loadxrdb	src/conmanbar.nim	/^proc loadxrdb() =$/;"	p
+loadxrdb	src/conmanbar.nim	/^proc loadxrdb()$/;"	p
+main	src/conman.nim	/^proc main() =$/;"	p
+main	src/conman.nim	/^proc main()$/;"	p
+main	src/conmanbar.nim	/^proc main() =$/;"	p
+main	src/conmanbar.nim	/^proc main()$/;"	p
+manage	src/conman.nim	/^proc manage(w: TWindow, wa: TXWindowAttributes) =$/;"	p
+manage	src/conman.nim	/^proc manage(w: TWindow, wa: TXWindowAttributes)$/;"	p
+manage	src/conmanbar.nim	/^proc manage(w: TWindow, wa: TXWindowAttributes) =$/;"	p
+manage	src/conmanbar.nim	/^proc manage(w: TWindow, wa: TXWindowAttributes)$/;"	p
+mappingnotify	src/conman.nim	/^proc mappingnotify(ev: TXEvent) =$/;"	p
+mappingnotify	src/conman.nim	/^proc mappingnotify(ev: TXEvent)$/;"	p
+mappingnotify	src/conmanbar.nim	/^proc mappingnotify(ev: TXEvent) =$/;"	p
+mappingnotify	src/conmanbar.nim	/^proc mappingnotify(ev: TXEvent)$/;"	p
+maprequest	src/conman.nim	/^proc maprequest(ev: TXEvent) =$/;"	p
+maprequest	src/conman.nim	/^proc maprequest(ev: TXEvent)$/;"	p
+maprequest	src/conmanbar.nim	/^proc maprequest(ev: TXEvent) =$/;"	p
+maprequest	src/conmanbar.nim	/^proc maprequest(ev: TXEvent)$/;"	p
+minimal	README.md	/^# minimal$/;"	c
+motionnotify	src/conman.nim	/^proc motionnotify(ev: TXEvent) =$/;"	p
+motionnotify	src/conman.nim	/^proc motionnotify(ev: TXEvent)$/;"	p
+motionnotify	src/conmanbar.nim	/^proc motionnotify(ev: TXEvent) =$/;"	p
+motionnotify	src/conmanbar.nim	/^proc motionnotify(ev: TXEvent)$/;"	p
+movemouse	src/conman.nim	/^proc movemouse(a: Arg) =$/;"	p
+movemouse	src/conman.nim	/^proc movemouse(a: Arg)$/;"	p
+movemouse	src/conmanbar.nim	/^proc movemouse(a: Arg) =$/;"	p
+movemouse	src/conmanbar.nim	/^proc movemouse(a: Arg)$/;"	p
+movesplith	src/conman.nim	/^proc movesplith(a: Arg) =$/;"	p
+movesplith	src/conman.nim	/^proc movesplith(a: Arg)$/;"	p
+movesplith	src/conmanbar.nim	/^proc movesplith(a: Arg) =$/;"	p
+movesplith	src/conmanbar.nim	/^proc movesplith(a: Arg)$/;"	p
+movesplitv	src/conman.nim	/^proc movesplitv(a: Arg) =$/;"	p
+movesplitv	src/conman.nim	/^proc movesplitv(a: Arg)$/;"	p
+movesplitv	src/conmanbar.nim	/^proc movesplitv(a: Arg) =$/;"	p
+movesplitv	src/conmanbar.nim	/^proc movesplitv(a: Arg)$/;"	p
+movetocon	src/conman.nim	/^proc movetocon(a: Arg) =$/;"	p
+movetocon	src/conman.nim	/^proc movetocon(a: Arg)$/;"	p
+movetocon	src/conman.nim	/^proc movetocon(c: PClient, connum: int) =$/;"	p
+movetocon	src/conman.nim	/^proc movetocon(c: PClient, connum: int)$/;"	p
+movetocon	src/conmanbar.nim	/^proc movetocon(a: Arg) =$/;"	p
+movetocon	src/conmanbar.nim	/^proc movetocon(a: Arg)$/;"	p
+movetocon	src/conmanbar.nim	/^proc movetocon(c: PClient, connum: int) =$/;"	p
+movetocon	src/conmanbar.nim	/^proc movetocon(c: PClient, connum: int)$/;"	p
+netatome	src/conman.nim	/^  netatome = enum$/;"	e
+netatome	src/conmanbar.nim	/^  netatome = enum$/;"	e
+propertynotify	src/conman.nim	/^proc propertynotify(ev: TXEvent) =$/;"	p
+propertynotify	src/conman.nim	/^proc propertynotify(ev: TXEvent)$/;"	p
+propertynotify	src/conmanbar.nim	/^proc propertynotify(ev: TXEvent) =$/;"	p
+propertynotify	src/conmanbar.nim	/^proc propertynotify(ev: TXEvent)$/;"	p
+recttomon	src/conman.nim	/^proc recttomon(x, y, w, h: cint): PMonitor =$/;"	p
+recttomon	src/conman.nim	/^proc recttomon(x, y, w, h: cint): PMonitor$/;"	p
+recttomon	src/conmanbar.nim	/^proc recttomon(x, y, w, h: cint): PMonitor =$/;"	p
+recttomon	src/conmanbar.nim	/^proc recttomon(x, y, w, h: cint): PMonitor$/;"	p
+removesystrayicon	src/conman.nim	/^proc removesystrayicon(i: PClient) =$/;"	p
+removesystrayicon	src/conman.nim	/^proc removesystrayicon(i: PClient)$/;"	p
+removesystrayicon	src/conmanbar.nim	/^proc removesystrayicon(i: PClient) =$/;"	p
+removesystrayicon	src/conmanbar.nim	/^proc removesystrayicon(i: PClient)$/;"	p
+resize	src/conman.nim	/^proc resize(c: PClient, x, y, w, h: cint, move: bool = false) =$/;"	p
+resize	src/conman.nim	/^proc resize(c: PClient, x, y, w, h: cint, move: bool = false)$/;"	p
+resize	src/conmanbar.nim	/^proc resize(c: PClient, x, y, w, h: cint, move: bool = false) =$/;"	p
+resize	src/conmanbar.nim	/^proc resize(c: PClient, x, y, w, h: cint, move: bool = false)$/;"	p
+resizebarwin	src/conman.nim	/^proc resizebarwin(m: PMonitor) =$/;"	p
+resizebarwin	src/conman.nim	/^proc resizebarwin(m: PMonitor)$/;"	p
+resizebarwin	src/conmanbar.nim	/^proc resizebarwin(m: PMonitor) =$/;"	p
+resizebarwin	src/conmanbar.nim	/^proc resizebarwin(m: PMonitor)$/;"	p
+resizeclient	src/conman.nim	/^proc resizeclient(c: PClient, x, y, w, h: cint) =$/;"	p
+resizeclient	src/conman.nim	/^proc resizeclient(c: PClient, x, y, w, h: cint)$/;"	p
+resizeclient	src/conmanbar.nim	/^proc resizeclient(c: PClient, x, y, w, h: cint) =$/;"	p
+resizeclient	src/conmanbar.nim	/^proc resizeclient(c: PClient, x, y, w, h: cint)$/;"	p
+resizemouse	src/conman.nim	/^proc resizemouse(a: Arg) =$/;"	p
+resizemouse	src/conman.nim	/^proc resizemouse(a: Arg)$/;"	p
+resizemouse	src/conmanbar.nim	/^proc resizemouse(a: Arg) =$/;"	p
+resizemouse	src/conmanbar.nim	/^proc resizemouse(a: Arg)$/;"	p
+resizerequest	src/conman.nim	/^proc resizerequest(ev: TXEvent)$/;"	p
+resizerequest	src/conman.nim	/^proc resizerequest(ev: TXevent) =$/;"	p
+resizerequest	src/conmanbar.nim	/^proc resizerequest(ev: TXEvent)$/;"	p
+resizerequest	src/conmanbar.nim	/^proc resizerequest(ev: TXevent) =$/;"	p
+restack	src/conman.nim	/^proc restack(m: PMonitor) =$/;"	p
+restack	src/conman.nim	/^proc restack(m: PMonitor)$/;"	p
+restack	src/conmanbar.nim	/^proc restack(m: PMonitor) =$/;"	p
+restack	src/conmanbar.nim	/^proc restack(m: PMonitor)$/;"	p
+send_cmd	src/conmanmsg.nim	/^proc send_cmd(cmd: string) =$/;"	p
+sendevent	src/conman.nim	/^proc sendevent(w: TWindow, proto: TAtom, mask: cint, d0, d1, d2, d3, d4: TAtom): bool =$/;"	p
+sendevent	src/conman.nim	/^proc sendevent(w: TWindow, proto: TAtom, mask: cint, d0, d1, d2, d3, d4: TAtom): bool$/;"	p
+sendevent	src/conmanbar.nim	/^proc sendevent(w: TWindow, proto: TAtom, mask: cint, d0, d1, d2, d3, d4: TAtom): bool =$/;"	p
+sendevent	src/conmanbar.nim	/^proc sendevent(w: TWindow, proto: TAtom, mask: cint, d0, d1, d2, d3, d4: TAtom): bool$/;"	p
+sendmon	src/conman.nim	/^proc sendmon(c: PClient, m: PMonitor) =$/;"	p
+sendmon	src/conman.nim	/^proc sendmon(c: PClient, m: PMonitor)$/;"	p
+sendmon	src/conmanbar.nim	/^proc sendmon(c: PClient, m: PMonitor) =$/;"	p
+sendmon	src/conmanbar.nim	/^proc sendmon(c: PClient, m: PMonitor)$/;"	p
+setclientstate	src/conman.nim	/^proc setclientstate(c: PClient, state: clong) =$/;"	p
+setclientstate	src/conman.nim	/^proc setclientstate(c: PClient, state: clong)$/;"	p
+setclientstate	src/conmanbar.nim	/^proc setclientstate(c: PClient, state: clong) =$/;"	p
+setclientstate	src/conmanbar.nim	/^proc setclientstate(c: PClient, state: clong)$/;"	p
+setdefault	src/conman.nim	/^proc setdefault(a: Arg) =$/;"	p
+setdefault	src/conman.nim	/^proc setdefault(a: Arg)$/;"	p
+setdefault	src/conmanbar.nim	/^proc setdefault(a: Arg) =$/;"	p
+setdefault	src/conmanbar.nim	/^proc setdefault(a: Arg)$/;"	p
+setfocus	src/conman.nim	/^proc setfocus(c: PClient) =$/;"	p
+setfocus	src/conman.nim	/^proc setfocus(c: PClient)$/;"	p
+setfocus	src/conmanbar.nim	/^proc setfocus(c: PClient) =$/;"	p
+setfocus	src/conmanbar.nim	/^proc setfocus(c: PClient)$/;"	p
+setfullscreen	src/conman.nim	/^proc setfullscreen(c: PClient, fullscreen: bool) =$/;"	p
+setfullscreen	src/conman.nim	/^proc setfullscreen(c: PClient, fullscreen: bool)$/;"	p
+setfullscreen	src/conmanbar.nim	/^proc setfullscreen(c: PClient, fullscreen: bool) =$/;"	p
+setfullscreen	src/conmanbar.nim	/^proc setfullscreen(c: PClient, fullscreen: bool)$/;"	p
+setup	src/conman.nim	/^proc setup() =$/;"	p
+setup	src/conman.nim	/^proc setup()$/;"	p
+setup	src/conmanbar.nim	/^proc setup() =$/;"	p
+setup	src/conmanbar.nim	/^proc setup()$/;"	p
+shm_read	src/ipc.nim	/^proc shm_read*(process: string): string =$/;"	p
+shm_remove	src/ipc.nim	/^proc shm_remove*(process: string) =$/;"	p
+shm_write	src/ipc.nim	/^proc shm_write*(process, text: string) =$/;"	p
+spawn	src/conman.nim	/^proc spawn(a: Arg) =$/;"	p
+spawn	src/conman.nim	/^proc spawn(a: Arg)$/;"	p
+spawn	src/conmanbar.nim	/^proc spawn(a: Arg) =$/;"	p
+spawn	src/conmanbar.nim	/^proc spawn(a: Arg)$/;"	p
+swallow	src/conman.nim	/^proc swallow(p, c: PClient) =$/;"	p
+swallow	src/conman.nim	/^proc swallow(p, c: PClient)$/;"	p
+swallow	src/conmanbar.nim	/^proc swallow(p, c: PClient) =$/;"	p
+swallow	src/conmanbar.nim	/^proc swallow(p, c: PClient)$/;"	p
+swallowingclient	src/conman.nim	/^proc swallowingclient(w: TWindow): PClient =$/;"	p
+swallowingclient	src/conman.nim	/^proc swallowingclient(w: TWindow): PClient$/;"	p
+swallowingclient	src/conmanbar.nim	/^proc swallowingclient(w: TWindow): PClient =$/;"	p
+swallowingclient	src/conmanbar.nim	/^proc swallowingclient(w: TWindow): PClient$/;"	p
+systraytomon	src/conman.nim	/^proc systraytomon(m: PMonitor): PMonitor =$/;"	p
+systraytomon	src/conman.nim	/^proc systraytomon(m: PMonitor): PMonitor$/;"	p
+systraytomon	src/conmanbar.nim	/^proc systraytomon(m: PMonitor): PMonitor =$/;"	p
+systraytomon	src/conmanbar.nim	/^proc systraytomon(m: PMonitor): PMonitor$/;"	p
+termforwin	src/conman.nim	/^proc termforwin(w: PClient): PClient =$/;"	p
+termforwin	src/conman.nim	/^proc termforwin(w: PClient): PClient$/;"	p
+termforwin	src/conmanbar.nim	/^proc termforwin(w: PClient): PClient =$/;"	p
+termforwin	src/conmanbar.nim	/^proc termforwin(w: PClient): PClient$/;"	p
+toggleadvancedtitle	src/conman.nim	/^proc toggleadvancedtitle(arg: Arg) =$/;"	p
+toggleadvancedtitle	src/conman.nim	/^proc toggleadvancedtitle(arg: Arg)$/;"	p
+toggleadvancedtitle	src/conmanbar.nim	/^proc toggleadvancedtitle(arg: Arg) =$/;"	p
+toggleadvancedtitle	src/conmanbar.nim	/^proc toggleadvancedtitle(arg: Arg)$/;"	p
+togglebar	src/conman.nim	/^proc togglebar(arg: Arg) =$/;"	p
+togglebar	src/conman.nim	/^proc togglebar(arg: Arg)$/;"	p
+togglebar	src/conmanbar.nim	/^proc togglebar(arg: Arg) =$/;"	p
+togglebar	src/conmanbar.nim	/^proc togglebar(arg: Arg)$/;"	p
+togglefloating	src/conman.nim	/^proc togglefloating(arg: Arg) =$/;"	p
+togglefloating	src/conman.nim	/^proc togglefloating(arg: Arg)$/;"	p
+togglefloating	src/conman.nim	/^proc togglefloating(c: PClient) =$/;"	p
+togglefloating	src/conman.nim	/^proc togglefloating(c: PClient)$/;"	p
+togglefloating	src/conmanbar.nim	/^proc togglefloating(arg: Arg) =$/;"	p
+togglefloating	src/conmanbar.nim	/^proc togglefloating(arg: Arg)$/;"	p
+togglefloating	src/conmanbar.nim	/^proc togglefloating(c: PClient) =$/;"	p
+togglefloating	src/conmanbar.nim	/^proc togglefloating(c: PClient)$/;"	p
+togglefullscreen	src/conman.nim	/^proc togglefullscreen(arg: Arg) =$/;"	p
+togglefullscreen	src/conman.nim	/^proc togglefullscreen(arg: Arg)$/;"	p
+togglefullscreen	src/conmanbar.nim	/^proc togglefullscreen(arg: Arg) =$/;"	p
+togglefullscreen	src/conmanbar.nim	/^proc togglefullscreen(arg: Arg)$/;"	p
+toggleiconl	src/conman.nim	/^proc toggleiconl(arg: Arg) =$/;"	p
+toggleiconl	src/conman.nim	/^proc toggleiconl(arg: Arg)$/;"	p
+toggleiconl	src/conmanbar.nim	/^proc toggleiconl(arg: Arg) =$/;"	p
+toggleiconl	src/conmanbar.nim	/^proc toggleiconl(arg: Arg)$/;"	p
+toggleiconr	src/conman.nim	/^proc toggleiconr(arg: Arg) =$/;"	p
+toggleiconr	src/conman.nim	/^proc toggleiconr(arg: Arg)$/;"	p
+toggleiconr	src/conmanbar.nim	/^proc toggleiconr(arg: Arg) =$/;"	p
+toggleiconr	src/conmanbar.nim	/^proc toggleiconr(arg: Arg)$/;"	p
+toggleigapps	src/conman.nim	/^proc toggleigapps(arg: Arg) =$/;"	p
+toggleigapps	src/conman.nim	/^proc toggleigapps(arg: Arg)$/;"	p
+toggleigapps	src/conmanbar.nim	/^proc toggleigapps(arg: Arg) =$/;"	p
+toggleigapps	src/conmanbar.nim	/^proc toggleigapps(arg: Arg)$/;"	p
+toggleogapps	src/conman.nim	/^proc toggleogapps(arg: Arg) =$/;"	p
+toggleogapps	src/conman.nim	/^proc toggleogapps(arg: Arg)$/;"	p
+toggleogapps	src/conmanbar.nim	/^proc toggleogapps(arg: Arg) =$/;"	p
+toggleogapps	src/conmanbar.nim	/^proc toggleogapps(arg: Arg)$/;"	p
+ucallocm	src/conman.nim	/^proc ucallocm(a: cint, b: cint): ptr TXineramaScreenInfo {.importc: "calloc", header: "<stdlib.h/;"	p
+ucallocm	src/conmanbar.nim	/^proc ucallocm(a: cint, b: cint): ptr TXineramaScreenInfo {.importc: "calloc", header: "<stdlib.h/;"	p
+unfocus	src/conman.nim	/^proc unfocus(c: PClient, setfocus: bool) =$/;"	p
+unfocus	src/conman.nim	/^proc unfocus(c: PClient, setfocus: bool)$/;"	p
+unfocus	src/conmanbar.nim	/^proc unfocus(c: PClient, setfocus: bool) =$/;"	p
+unfocus	src/conmanbar.nim	/^proc unfocus(c: PClient, setfocus: bool)$/;"	p
+unframe	src/conman.nim	/^proc unframe(c: PClient) =$/;"	p
+unframe	src/conman.nim	/^proc unframe(c: PClient)$/;"	p
+unframe	src/conmanbar.nim	/^proc unframe(c: PClient) =$/;"	p
+unframe	src/conmanbar.nim	/^proc unframe(c: PClient)$/;"	p
+unmanage	src/conman.nim	/^proc unmanage(c: PClient, destroyed: bool) =$/;"	p
+unmanage	src/conman.nim	/^proc unmanage(c: PClient, destroyed: bool)$/;"	p
+unmanage	src/conmanbar.nim	/^proc unmanage(c: PClient, destroyed: bool) =$/;"	p
+unmanage	src/conmanbar.nim	/^proc unmanage(c: PClient, destroyed: bool)$/;"	p
+unmapnotify	src/conman.nim	/^proc unmapnotify(ev: TXEvent)$/;"	p
+unmapnotify	src/conman.nim	/^proc unmapnotify(ev: TXevent) =$/;"	p
+unmapnotify	src/conmanbar.nim	/^proc unmapnotify(ev: TXEvent)$/;"	p
+unmapnotify	src/conmanbar.nim	/^proc unmapnotify(ev: TXevent) =$/;"	p
+unswallow	src/conman.nim	/^proc unswallow(c: PClient) =$/;"	p
+unswallow	src/conman.nim	/^proc unswallow(c: PClient)$/;"	p
+unswallow	src/conmanbar.nim	/^proc unswallow(c: PClient) =$/;"	p
+unswallow	src/conmanbar.nim	/^proc unswallow(c: PClient)$/;"	p
+updatebarpos	src/conman.nim	/^proc updatebarpos(m: PMonitor) =$/;"	p
+updatebarpos	src/conman.nim	/^proc updatebarpos(m: PMonitor)$/;"	p
+updatebarpos	src/conmanbar.nim	/^proc updatebarpos(m: PMonitor) =$/;"	p
+updatebarpos	src/conmanbar.nim	/^proc updatebarpos(m: PMonitor)$/;"	p
+updatebars	src/conman.nim	/^proc updatebars() =$/;"	p
+updatebars	src/conman.nim	/^proc updatebars()$/;"	p
+updatebars	src/conmanbar.nim	/^proc updatebars() =$/;"	p
+updatebars	src/conmanbar.nim	/^proc updatebars()$/;"	p
+updateclientlist	src/conman.nim	/^proc updateclientlist() =$/;"	p
+updateclientlist	src/conman.nim	/^proc updateclientlist()$/;"	p
+updateclientlist	src/conmanbar.nim	/^proc updateclientlist() =$/;"	p
+updateclientlist	src/conmanbar.nim	/^proc updateclientlist()$/;"	p
+updatecons	src/conman.nim	/^proc updatecons(m: PMonitor) =$/;"	p
+updatecons	src/conman.nim	/^proc updatecons(m: PMonitor)$/;"	p
+updatecons	src/conmanbar.nim	/^proc updatecons(m: PMonitor) =$/;"	p
+updatecons	src/conmanbar.nim	/^proc updatecons(m: PMonitor)$/;"	p
+updategeom	src/conman.nim	/^proc updategeom(): bool =$/;"	p
+updategeom	src/conman.nim	/^proc updategeom(): bool$/;"	p
+updategeom	src/conmanbar.nim	/^proc updategeom(): bool =$/;"	p
+updategeom	src/conmanbar.nim	/^proc updategeom(): bool$/;"	p
+updateipc	src/conman.nim	/^proc updateipc() =$/;"	p
+updateipc	src/conman.nim	/^proc updateipc()$/;"	p
+updateipc	src/conmanbar.nim	/^proc updateipc() =$/;"	p
+updateipc	src/conmanbar.nim	/^proc updateipc()$/;"	p
+updatenumlockmask	src/conman.nim	/^proc updatenumlockmask() =$/;"	p
+updatenumlockmask	src/conman.nim	/^proc updatenumlockmask()$/;"	p
+updatenumlockmask	src/conmanbar.nim	/^proc updatenumlockmask() =$/;"	p
+updatenumlockmask	src/conmanbar.nim	/^proc updatenumlockmask()$/;"	p
+updatesizehints	src/conman.nim	/^proc updatesizehints(c: PClient) =$/;"	p
+updatesizehints	src/conman.nim	/^proc updatesizehints(c: PClient)$/;"	p
+updatesizehints	src/conmanbar.nim	/^proc updatesizehints(c: PClient) =$/;"	p
+updatesizehints	src/conmanbar.nim	/^proc updatesizehints(c: PClient)$/;"	p
+updatestext	src/conman.nim	/^proc updatestext(m: PMonitor, force: bool) =$/;"	p
+updatestext	src/conman.nim	/^proc updatestext(m: PMonitor, force: bool)$/;"	p
+updatestext	src/conmanbar.nim	/^proc updatestext(m: PMonitor, force: bool) =$/;"	p
+updatestext	src/conmanbar.nim	/^proc updatestext(m: PMonitor, force: bool)$/;"	p
+updatesystray	src/conman.nim	/^proc updatesystray() =$/;"	p
+updatesystray	src/conman.nim	/^proc updatesystray()$/;"	p
+updatesystray	src/conmanbar.nim	/^proc updatesystray() =$/;"	p
+updatesystray	src/conmanbar.nim	/^proc updatesystray()$/;"	p
+updatesystrayicongeom	src/conman.nim	/^proc updatesystrayicongeom(i: PClient, w, h: cint) =$/;"	p
+updatesystrayicongeom	src/conman.nim	/^proc updatesystrayicongeom(i: PClient, w, h: cint)$/;"	p
+updatesystrayicongeom	src/conmanbar.nim	/^proc updatesystrayicongeom(i: PClient, w, h: cint) =$/;"	p
+updatesystrayicongeom	src/conmanbar.nim	/^proc updatesystrayicongeom(i: PClient, w, h: cint)$/;"	p
+updatesystrayiconstate	src/conman.nim	/^proc updatesystrayiconstate(i: PClient, ev: PXPropertyEvent) =$/;"	p
+updatesystrayiconstate	src/conman.nim	/^proc updatesystrayiconstate(i: PClient, ev: PXPropertyEvent)$/;"	p
+updatesystrayiconstate	src/conmanbar.nim	/^proc updatesystrayiconstate(i: PClient, ev: PXPropertyEvent) =$/;"	p
+updatesystrayiconstate	src/conmanbar.nim	/^proc updatesystrayiconstate(i: PClient, ev: PXPropertyEvent)$/;"	p
+updatetitle	src/conman.nim	/^proc updatetitle(c: PClient) =$/;"	p
+updatetitle	src/conman.nim	/^proc updatetitle(c: PClient)$/;"	p
+updatetitle	src/conmanbar.nim	/^proc updatetitle(c: PClient) =$/;"	p
+updatetitle	src/conmanbar.nim	/^proc updatetitle(c: PClient)$/;"	p
+updatewmhints	src/conman.nim	/^proc updatewmhints(c: PClient) =$/;"	p
+updatewmhints	src/conman.nim	/^proc updatewmhints(c: PClient)$/;"	p
+updatewmhints	src/conmanbar.nim	/^proc updatewmhints(c: PClient) =$/;"	p
+updatewmhints	src/conmanbar.nim	/^proc updatewmhints(c: PClient)$/;"	p
+utf8decode	src/draw.nim	/^# proc utf8decode(c: cstring, u: ptr clong, clen: csize_t): csize_t =$/;"	p
+utf8decodebyte	src/draw.nim	/^# proc utf8decodebyte(c: char, i: ptr csize_t): clong = $/;"	p
+utf8validate	src/draw.nim	/^# proc utf8validate(u: ptr clong, i: csize_t): csize_t =$/;"	p
+winpid	src/conman.nim	/^proc winpid(w: TWindow): cint =$/;"	p
+winpid	src/conman.nim	/^proc winpid(w: TWindow): cint$/;"	p
+winpid	src/conmanbar.nim	/^proc winpid(w: TWindow): cint =$/;"	p
+winpid	src/conmanbar.nim	/^proc winpid(w: TWindow): cint$/;"	p
+wintoclient	src/conman.nim	/^proc wintoclient(w: TWindow): PClient =$/;"	p
+wintoclient	src/conman.nim	/^proc wintoclient(w: TWindow): PClient$/;"	p
+wintoclient	src/conmanbar.nim	/^proc wintoclient(w: TWindow): PClient =$/;"	p
+wintoclient	src/conmanbar.nim	/^proc wintoclient(w: TWindow): PClient$/;"	p
+wintomon	src/conman.nim	/^proc wintomon(w: TWindow): PMonitor =$/;"	p
+wintomon	src/conman.nim	/^proc wintomon(w: TWindow): PMonitor$/;"	p
+wintomon	src/conmanbar.nim	/^proc wintomon(w: TWindow): PMonitor =$/;"	p
+wintomon	src/conmanbar.nim	/^proc wintomon(w: TWindow): PMonitor$/;"	p
+wintosystrayicon	src/conman.nim	/^proc wintosystrayicon(w: TWindow): PClient =$/;"	p
+wintosystrayicon	src/conman.nim	/^proc wintosystrayicon(w: TWindow): PClient$/;"	p
+wintosystrayicon	src/conmanbar.nim	/^proc wintosystrayicon(w: TWindow): PClient =$/;"	p
+wintosystrayicon	src/conmanbar.nim	/^proc wintosystrayicon(w: TWindow): PClient$/;"	p
+wmatome	src/conman.nim	/^  wmatome = enum$/;"	e
+wmatome	src/conmanbar.nim	/^  wmatome = enum$/;"	e
+xcb_generic_error_t	src/conman.nim	/^  xcb_generic_error_t = object$/;"	c
+xcb_generic_error_t	src/conmanbar.nim	/^  xcb_generic_error_t = object$/;"	c
+xcb_res_client_id_value_next	src/conman.nim	/^proc xcb_res_client_id_value_next(i: ptr xcb_res_client_id_value_iterator_t) {.importc: "xcb_res/;"	p
+xcb_res_client_id_value_next	src/conmanbar.nim	/^proc xcb_res_client_id_value_next(i: ptr xcb_res_client_id_value_iterator_t) {.importc: "xcb_res/;"	p
+xcb_res_client_id_value_value	src/conman.nim	/^proc xcb_res_client_id_value_value(i: ptr xcb_res_client_id_value_t): ptr uint32  {.importc: "xc/;"	p
+xcb_res_client_id_value_value	src/conmanbar.nim	/^proc xcb_res_client_id_value_value(i: ptr xcb_res_client_id_value_t): ptr uint32  {.importc: "xc/;"	p
+xcb_res_query_client_ids	src/conman.nim	/^proc xcb_res_query_client_ids(con: ptr xcb_connection_t, lol: int, p: ptr xcb_res_client_id_spec/;"	p
+xcb_res_query_client_ids	src/conmanbar.nim	/^proc xcb_res_query_client_ids(con: ptr xcb_connection_t, lol: int, p: ptr xcb_res_client_id_spec/;"	p
+xcb_res_query_client_ids_ids_iterator	src/conman.nim	/^proc xcb_res_query_client_ids_ids_iterator(r: ptr xcb_res_query_client_ids_reply_t): xcb_res_cli/;"	p
+xcb_res_query_client_ids_ids_iterator	src/conmanbar.nim	/^proc xcb_res_query_client_ids_ids_iterator(r: ptr xcb_res_query_client_ids_reply_t): xcb_res_cli/;"	p
+xcb_res_query_client_ids_reply	src/conman.nim	/^proc xcb_res_query_client_ids_reply(con: ptr xcb_connection_t, lol: xcb_res_query_client_ids_coo/;"	p
+xcb_res_query_client_ids_reply	src/conmanbar.nim	/^proc xcb_res_query_client_ids_reply(con: ptr xcb_connection_t, lol: xcb_res_query_client_ids_coo/;"	p
+xerror	src/conman.nim	/^proc xerror(dpy: PDisplay, ee: PXErrorEvent): cint {.cdecl.} =$/;"	p
+xerror	src/conman.nim	/^proc xerror(dpy: PDisplay, ee: PXErrorEvent): cint {.cdecl.}$/;"	p
+xerror	src/conmanbar.nim	/^proc xerror(dpy: PDisplay, ee: PXErrorEvent): cint {.cdecl.} =$/;"	p
+xerror	src/conmanbar.nim	/^proc xerror(dpy: PDisplay, ee: PXErrorEvent): cint {.cdecl.}$/;"	p
+xerrorstart	src/conman.nim	/^proc xerrorstart(dpy: PDisplay, ee: PXErrorEvent): cint {.cdecl.} =$/;"	p
+xerrorstart	src/conman.nim	/^proc xerrorstart(dpy: PDisplay, ee: PXErrorEvent): cint {.cdecl.}$/;"	p
+xerrorstart	src/conmanbar.nim	/^proc xerrorstart(dpy: PDisplay, ee: PXErrorEvent): cint {.cdecl.} =$/;"	p
+xerrorstart	src/conmanbar.nim	/^proc xerrorstart(dpy: PDisplay, ee: PXErrorEvent): cint {.cdecl.}$/;"	p
+xfont_create	src/draw.nim	/^proc xfont_create(drw: PDrw, fontname: ptr cstring, fontpattern: PFcPattern): PFnt =$/;"	p
+xfont_free	src/draw.nim	/^proc xfont_free(font: PFnt) =$/;"	p
+xrdb	src/conman.nim	/^proc xrdb(a: Arg) =$/;"	p
+xrdb	src/conman.nim	/^proc xrdb(a: Arg)$/;"	p
+xrdb	src/conmanbar.nim	/^proc xrdb(a: Arg) =$/;"	p
+xrdb	src/conmanbar.nim	/^proc xrdb(a: Arg)$/;"	p

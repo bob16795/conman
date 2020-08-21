@@ -1,0 +1,426 @@
+total executions of each stack trace:
+Entry: 1/137 Calls: 102/534 = 19.10% [sum: 102; 102/534 = 19.10%]
+  /usr/lib/nim/system/iterators_1.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/system.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: manage 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: maprequest 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 2/137 Calls: 46/534 = 8.61% [sum: 148; 148/534 = 27.72%]
+  /usr/lib/nim/system.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/system.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 3/137 Calls: 46/534 = 8.61% [sum: 194; 194/534 = 36.33%]
+  /usr/lib/nim/system/iterators_1.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/system.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: expose 72/534 = 13.48%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 4/137 Calls: 46/534 = 8.61% [sum: 240; 240/534 = 44.94%]
+  /usr/lib/nim/system/iterators_1.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/system.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: updatebars 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: setup 75/534 = 14.04%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 5/137 Calls: 15/534 = 2.81% [sum: 255; 255/534 = 47.75%]
+  /usr/lib/nim/pure/strutils.nim: substrEq 21/534 = 3.93%
+  /usr/lib/nim/pure/strutils.nim: split 46/534 = 8.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 6/137 Calls: 13/534 = 2.43% [sum: 268; 268/534 = 50.19%]
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 7/137 Calls: 12/534 = 2.25% [sum: 280; 280/534 = 52.43%]
+  /usr/lib/nim/system/iterators_1.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: manage 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: maprequest 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 8/137 Calls: 11/534 = 2.06% [sum: 291; 291/534 = 54.49%]
+  /usr/lib/nim/system.nim: .. 28/534 = 5.24%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 9/137 Calls: 11/534 = 2.06% [sum: 302; 302/534 = 56.55%]
+  /usr/lib/nim/system/iterators_1.nim: readLine 39/534 = 7.30%
+  /home/john/doc/rep/conman/src/ipc.nim: shm_write 19/534 = 3.56%
+  /home/john/doc/rep/conman/src/conman.nim: updateipc 35/534 = 6.55%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 10/137 Calls: 11/534 = 2.06% [sum: 313; 313/534 = 58.61%]
+  /usr/lib/nim/system.nim: == 21/534 = 3.93%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 11/137 Calls: 9/534 = 1.69% [sum: 322; 322/534 = 60.30%]
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 12/137 Calls: 8/534 = 1.50% [sum: 330; 330/534 = 61.80%]
+  /usr/lib/nim/pure/strutils.nim: split 46/534 = 8.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 13/137 Calls: 8/534 = 1.50% [sum: 338; 338/534 = 63.30%]
+  /usr/lib/nim/system/iterators_1.nim: readLine 39/534 = 7.30%
+  /usr/lib/nim/pure/streams.nim: fsReadLine 17/534 = 3.18%
+  /usr/lib/nim/pure/streams.nim: readLine 39/534 = 7.30%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: manage 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: maprequest 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 14/137 Calls: 7/534 = 1.31% [sum: 345; 345/534 = 64.61%]
+  /usr/lib/nim/system/iterators_1.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: updatebars 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: setup 75/534 = 14.04%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 15/137 Calls: 7/534 = 1.31% [sum: 352; 352/534 = 65.92%]
+  /usr/lib/nim/system.nim: .. 28/534 = 5.24%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 16/137 Calls: 7/534 = 1.31% [sum: 359; 359/534 = 67.23%]
+  /usr/lib/nim/system/iterators_1.nim: [] 34/534 = 6.37%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 17/137 Calls: 6/534 = 1.12% [sum: 365; 365/534 = 68.35%]
+  /usr/lib/nim/system/iterators_1.nim: [] 34/534 = 6.37%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 18/137 Calls: 6/534 = 1.12% [sum: 371; 371/534 = 69.48%]
+  /usr/lib/nim/system/iterators_1.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/strutils.nim: split 46/534 = 8.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 19/137 Calls: 6/534 = 1.12% [sum: 377; 377/534 = 70.60%]
+  /usr/lib/nim/system.nim: .. 28/534 = 5.24%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 20/137 Calls: 5/534 = 0.94% [sum: 382; 382/534 = 71.54%]
+  /usr/lib/nim/system/iterators_1.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: expose 72/534 = 13.48%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 21/137 Calls: 5/534 = 0.94% [sum: 387; 387/534 = 72.47%]
+  /usr/lib/nim/system/iterators_1.nim: readLine 39/534 = 7.30%
+  /usr/lib/nim/pure/streams.nim: fsReadLine 17/534 = 3.18%
+  /usr/lib/nim/pure/streams.nim: readLine 39/534 = 7.30%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: updatebars 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: setup 75/534 = 14.04%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 22/137 Calls: 4/534 = 0.75% [sum: 391; 391/534 = 73.22%]
+  /usr/lib/nim/system/iterators_1.nim: [] 34/534 = 6.37%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 23/137 Calls: 3/534 = 0.56% [sum: 394; 394/534 = 73.78%]
+  /usr/lib/nim/system/iterators_1.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 24/137 Calls: 3/534 = 0.56% [sum: 397; 397/534 = 74.34%]
+  /usr/lib/nim/system/mm/boehm.nim: allocAtomic 23/534 = 4.31%
+  /home/john/doc/rep/conman/src/conman.nim: &+ 5/534 = 0.94%
+  /home/john/doc/rep/conman/src/conman.nim: updateipc 35/534 = 6.55%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 25/137 Calls: 3/534 = 0.56% [sum: 400; 400/534 = 74.91%]
+  /usr/lib/nim/system/iterators_1.nim: readLine 39/534 = 7.30%
+  /home/john/doc/rep/conman/src/ipc.nim: shm_read 8/534 = 1.50%
+  /home/john/doc/rep/conman/src/conman.nim: updateipc 35/534 = 6.55%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 26/137 Calls: 2/534 = 0.37% [sum: 402; 402/534 = 75.28%]
+  /usr/lib/nim/system/mm/boehm.nim: allocAtomic 23/534 = 4.31%
+  /usr/lib/nim/system.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/system.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 27/137 Calls: 2/534 = 0.37% [sum: 404; 404/534 = 75.66%]
+  /usr/lib/nim/system.nim: toFloat 2/534 = 0.37%
+  /usr/lib/nim/system.nim: / 3/534 = 0.56%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 28/137 Calls: 2/534 = 0.37% [sum: 406; 406/534 = 76.03%]
+  /usr/lib/nim/system.nim: [] 34/534 = 6.37%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: setup 75/534 = 14.04%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 29/137 Calls: 2/534 = 0.37% [sum: 408; 408/534 = 76.40%]
+  /home/john/doc/rep/conman/src/draw.nim: drw_font_getexts 5/534 = 0.94%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 30/137 Calls: 2/534 = 0.37% [sum: 410; 410/534 = 76.78%]
+  /usr/lib/nim/pure/unicode.nim: runeAt 5/534 = 0.94%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: manage 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: maprequest 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 31/137 Calls: 2/534 = 0.37% [sum: 412; 412/534 = 77.15%]
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: manage 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: maprequest 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 32/137 Calls: 2/534 = 0.37% [sum: 414; 414/534 = 77.53%]
+  /home/john/doc/rep/conman/src/ipc.nim: shm_read 8/534 = 1.50%
+  /home/john/doc/rep/conman/src/conman.nim: updateipc 35/534 = 6.55%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 33/137 Calls: 2/534 = 0.37% [sum: 416; 416/534 = 77.90%]
+  /usr/lib/nim/system/iterators_1.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: manage 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: maprequest 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 34/137 Calls: 2/534 = 0.37% [sum: 418; 418/534 = 78.28%]
+  /usr/lib/nim/system/iterators_1.nim: readLine 39/534 = 7.30%
+  /usr/lib/nim/pure/streams.nim: fsReadLine 17/534 = 3.18%
+  /usr/lib/nim/pure/streams.nim: readLine 39/534 = 7.30%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: expose 72/534 = 13.48%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 35/137 Calls: 2/534 = 0.37% [sum: 420; 420/534 = 78.65%]
+  /usr/lib/nim/pure/unicode.nim: graphemeLen 6/534 = 1.12%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 36/137 Calls: 2/534 = 0.37% [sum: 422; 422/534 = 79.03%]
+  /usr/lib/nim/system/iterators_1.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/strutils.nim: split 46/534 = 8.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: unmanage 9/534 = 1.69%
+  /home/john/doc/rep/conman/src/conman.nim: unmapnotify 9/534 = 1.69%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 37/137 Calls: 2/534 = 0.37% [sum: 424; 424/534 = 79.40%]
+  /usr/lib/nim/system/mm/boehm.nim: allocAtomic 23/534 = 4.31%
+  /usr/lib/nim/system.nim: substr 288/534 = 53.93%
+  /usr/lib/nim/pure/includes/osenv.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: manage 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: maprequest 157/534 = 29.40%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 38/137 Calls: 2/534 = 0.37% [sum: 426; 426/534 = 79.78%]
+  /usr/lib/nim/pure/osproc.nim: envToCStringArray 281/534 = 52.62%
+  /usr/lib/nim/pure/osproc.nim: startProcess 282/534 = 52.81%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 39/137 Calls: 2/534 = 0.37% [sum: 428; 428/534 = 80.15%]
+  /usr/lib/nim/pure/collections/hashcommon.nim: rawGet 7/534 = 1.31%
+  /usr/lib/nim/pure/collections/tables.nim: [] 34/534 = 6.37%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 40/137 Calls: 2/534 = 0.37% [sum: 430; 430/534 = 80.52%]
+  /usr/lib/nim/system/mm/boehm.nim: allocAtomic 23/534 = 4.31%
+  /usr/lib/nim/system.nim: [] 34/534 = 6.37%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 41/137 Calls: 2/534 = 0.37% [sum: 432; 432/534 = 80.90%]
+  /usr/lib/nim/system.nim: .. 28/534 = 5.24%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: expose 72/534 = 13.48%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 42/137 Calls: 2/534 = 0.37% [sum: 434; 434/534 = 81.27%]
+  /usr/lib/nim/system/iterators_1.nim: readLine 39/534 = 7.30%
+  /usr/lib/nim/pure/streams.nim: fsReadLine 17/534 = 3.18%
+  /usr/lib/nim/pure/streams.nim: readLine 39/534 = 7.30%
+  /usr/lib/nim/pure/osproc.nim: execProcess 305/534 = 57.12%
+  /home/john/doc/rep/conman/src/conman.nim: getstatus 314/534 = 58.80%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 43/137 Calls: 2/534 = 0.37% [sum: 436; 436/534 = 81.65%]
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: setup 75/534 = 14.04%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 44/137 Calls: 2/534 = 0.37% [sum: 438; 438/534 = 82.02%]
+  /usr/lib/nim/pure/strutils.nim: substrEq 21/534 = 3.93%
+  /usr/lib/nim/pure/strutils.nim: split 46/534 = 8.61%
+  /home/john/doc/rep/conman/src/conman.nim: updatestext 326/534 = 61.05%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 45/137 Calls: 2/534 = 0.37% [sum: 440; 440/534 = 82.40%]
+  /usr/lib/nim/pure/unicode.nim: runeAt 5/534 = 0.94%
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 46/137 Calls: 2/534 = 0.37% [sum: 442; 442/534 = 82.77%]
+  /usr/lib/nim/system.nim: == 21/534 = 3.93%
+  /usr/lib/nim/system/io.nim: readLine 39/534 = 7.30%
+  /usr/lib/nim/system/io.nim: shm_write 19/534 = 3.56%
+  /home/john/doc/rep/conman/src/conman.nim: updateipc 35/534 = 6.55%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: propertynotify 218/534 = 40.82%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
+Entry: 47/137 Calls: 2/534 = 0.37% [sum: 444; 444/534 = 83.15%]
+  /home/john/doc/rep/conman/src/draw.nim: drw_text 104/534 = 19.48%
+  /home/john/doc/rep/conman/src/draw.nim: drw_fontset_getwidth 62/534 = 11.61%
+  /home/john/doc/rep/conman/src/conman.nim: drawbar 323/534 = 60.49%
+  /home/john/doc/rep/conman/src/conman.nim: focus 173/534 = 32.40%
+  /home/john/doc/rep/conman/src/conman.nim: unmanage 9/534 = 1.69%
+  /home/john/doc/rep/conman/src/conman.nim: unmapnotify 9/534 = 1.69%
+  /home/john/doc/rep/conman/src/conman.nim: main 531/534 = 99.44%
+  /home/john/doc/rep/conman/src/conman.nim: conman 534/534 = 100.00%
